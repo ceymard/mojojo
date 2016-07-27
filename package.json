@@ -1,0 +1,22 @@
+{
+    "name": "theme-boneyfied",
+    "displayName": "boneyfied",
+    "description": "A boneyfied adaptation for vscode",
+    "version": "0.0.1",
+    "publisher": "ceymard",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Boneyfied",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Boneyfied.tmTheme"
+            }
+        ]
+    }
+}
