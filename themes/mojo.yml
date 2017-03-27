@@ -1,0 +1,85 @@
+
+name: mymojo
+
+defs:
+
+settings:
+  foreground: _eeeeee
+  background: '#222222'
+  caret: _eeeeee
+  invisibles: _eeeeee
+  lineHighlight:
+  selection:
+  selectionBorder:
+  bracketContentsOptions: underline
+  tagsForeground:
+  tagsOptions: underline
+
+scopes:
+
+  # Dark grey
+  italic _444444:
+    - comment
+    # On veut être sûrs qu'il ne se fait jamais choper.
+    - punctuation.definition.comment
+
+  # Cute blue !
+  _3096cc:
+    - keyword
+    - storage.type
+    - storage.modifier
+
+  # Lighter blue
+  _7ec1e5:
+    - meta.definition.variable
+    - meta.parameters punctuation
+    - meta.parameters punctuation.definition
+    - variable.parameter
+
+  _9cd1ed:
+    - meta.objectliteral punctuation.definition
+    - meta.objectliteral meta.object-literal.key
+
+  _d77ce7:
+    - meta.type.annotation
+    - entity.name.type
+    - meta.return.type
+    - meta.type.parameters
+
+  _f0a0fe:
+    - meta.type.annotation keyword
+    - meta.type.annotation meta.brace
+    - meta.type.annotation punctuation
+    - meta.type.parameters punctuation
+    - meta.type.parameters meta.brace
+
+  # Types & co, purple
+  _b72ccf:
+    - entity.name.type.class
+
+
+  # Green-ish
+  # FUNCTION CALLS
+  # _28cea9:
+  _00c392:
+    - meta.definition entity.name.function
+
+  _62d6b9:
+    - entity.name.function
+    - support.function
+
+  _b7e5fe:
+    - string
+    - string punctuation
+    - constant
+    - punctuation.definition.string
+
+  # TSX
+  _ffa131:
+    - entity.name.tag
+
+  _ffc886:
+    - entity.other.attribute-name
+    - meta.tag punctuation.section
+    - meta.tag punctuation.definition
+    - meta.tag keyword.operator.assignment

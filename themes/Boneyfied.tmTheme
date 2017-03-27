@@ -10,6 +10,21 @@
 		<string>Boneyfied to turn you on. &lt;3 Eibbor Srednuas</string>
 		<key>settings</key>
 		<array>
+			<!-- Embedded pour que ça soit discret -->
+			<!--<dict>
+				<key>name</key>
+				<string>JSX code</string>
+				<key>scope</key>
+				<string>meta.embedded.expression.jsx</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#FFFFFF90</string>
+				</dict>
+			</dict>-->
+
+
+
 			<dict>
 				<key>settings</key>
 				<dict>
@@ -35,6 +50,7 @@
 					<string>underline</string>
 				</dict>
 			</dict>
+
 			<dict>
 				<key>name</key>
 				<string>Parenthesis</string>
@@ -183,7 +199,7 @@
 					<key>fontStyle</key>
 					<string/>
 					<key>foreground</key>
-					<string>#22ffcea0</string>
+					<string>#22ffced0</string>
 				</dict>
 			</dict>
 			<dict>
@@ -260,19 +276,6 @@
 				<dict>
 					<key>foreground</key>
 					<string>#A5DF93E0</string>
-					<key>background</key>
-					<string>#A5DF930a</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>JSX code</string>
-				<key>scope</key>
-				<string>meta.embedded.expression.jsx</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#7AC0EDA0</string>
 					<key>background</key>
 					<string>#A5DF930a</string>
 				</dict>
