@@ -25,6 +25,7 @@
     ]
   },
   "devDependencies": {
+    "color": "^1.0.3",
     "js-yaml": "^3.8.2"
   }
 }

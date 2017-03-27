@@ -5,7 +5,7 @@
 <plist version="1.0">
   <dict>
     <key>name</key>
-    <string>mymojo</string>
+    <string>My Mojo</string>
     <key>comment</key>
     <string></string>
     <key>settings</key>
@@ -14,197 +14,177 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#eeeeee</string>
+          <string>#EEEEEE</string>
           <key>background</key>
-          <string>#222222</string>
+          <string>#131517</string>
           <key>caret</key>
-          <string>#eeeeee</string>
+          <string>#EEEEEE</string>
           <key>invisibles</key>
-          <string>#eeeeee</string>
-          <key>lineHighlight</key>
-          <string></string>
-          <key>selection</key>
-          <string></string>
-          <key>selectionBorder</key>
-          <string></string>
+          <string>#EEEEEE</string>
           <key>bracketContentsOptions</key>
           <string>underline</string>
-          <key>tagsForeground</key>
-          <string></string>
           <key>tagsOptions</key>
           <string>underline</string>
         </dict>
       </dict>
 
-      <dict>
-        <key>settings</key>
-        <dict>
-          <key>fontStyle</key>
-          <string>italic</string>
-          <key>foreground</key>
-          <string>#444444</string>
-          <key>background</key>
-          <string>#444444a0</string>
-        </dict>
-        <key>scope</key>
-        <string>comment, punctuation.definition.comment</string>
-        <key>name</key>
-        <string>...</string>
-      </dict>
+       <dict>
+         <key>settings</key>
+         <dict>
+           <key>foreground</key>
+           <string>#486E86</string>
+           <key>fontStyle</key>
+           <string>italic</string>
+         </dict>
+         <key>name</key>
+         <string>...</string>
+         <key>scope</key>
+         <string>comment, punctuation.definition.comment</string>
+       </dict>
 
-      <dict>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#3096cc</string>
-          <key>background</key>
-          <string>#3096cca0</string>
-        </dict>
-        <key>scope</key>
-        <string>keyword, storage.type, storage.modifier</string>
-        <key>name</key>
-        <string>...</string>
-      </dict>
+       <dict>
+         <key>settings</key>
+         <dict>
+           <key>foreground</key>
+           <string>#9EB9FF</string>
+         </dict>
+         <key>name</key>
+         <string>...</string>
+         <key>scope</key>
+         <string>keyword.control, storage.type, storage.modifier</string>
+       </dict>
 
-      <dict>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#7ec1e5</string>
-          <key>background</key>
-          <string>#7ec1e5a0</string>
-        </dict>
-        <key>scope</key>
-        <string>meta.definition.variable, meta.parameters punctuation, meta.parameters punctuation.definition, variable.parameter</string>
-        <key>name</key>
-        <string>...</string>
-      </dict>
+       <dict>
+         <key>settings</key>
+         <dict>
+           <key>foreground</key>
+           <string>#EEEEEE</string>
+         </dict>
+         <key>name</key>
+         <string>...</string>
+         <key>scope</key>
+         <string>string variable, string punctuation.accessor, string keyword</string>
+       </dict>
 
-      <dict>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#9cd1ed</string>
-          <key>background</key>
-          <string>#9cd1eda0</string>
-        </dict>
-        <key>scope</key>
-        <string>meta.objectliteral punctuation.definition, meta.objectliteral meta.object-literal.key</string>
-        <key>name</key>
-        <string>...</string>
-      </dict>
+       <dict>
+         <key>settings</key>
+         <dict>
+           <key>foreground</key>
+           <string>#DCF1FF</string>
+         </dict>
+         <key>name</key>
+         <string>...</string>
+         <key>scope</key>
+         <string>meta.definition.variable, meta.parameters punctuation, meta.parameters punctuation.definition, variable.parameter</string>
+       </dict>
 
-      <dict>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#d77ce7</string>
-          <key>background</key>
-          <string>#d77ce7a0</string>
-        </dict>
-        <key>scope</key>
-        <string>meta.type.annotation, entity.name.type, meta.return.type, meta.type.parameters</string>
-        <key>name</key>
-        <string>...</string>
-      </dict>
+       <dict>
+         <key>settings</key>
+         <dict>
+           <key>foreground</key>
+           <string>#DCE5FF</string>
+         </dict>
+         <key>name</key>
+         <string>...</string>
+         <key>scope</key>
+         <string>meta.objectliteral punctuation.definition, meta.objectliteral meta.object-literal.key</string>
+       </dict>
 
-      <dict>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#f0a0fe</string>
-          <key>background</key>
-          <string>#f0a0fea0</string>
-        </dict>
-        <key>scope</key>
-        <string>meta.type.annotation keyword, meta.type.annotation meta.brace, meta.type.annotation punctuation, meta.type.parameters punctuation, meta.type.parameters meta.brace</string>
-        <key>name</key>
-        <string>...</string>
-      </dict>
+       <dict>
+         <key>settings</key>
+         <dict>
+           <key>foreground</key>
+           <string>#9EFFC4</string>
+         </dict>
+         <key>name</key>
+         <string>...</string>
+         <key>scope</key>
+         <string>meta.type.annotation, entity.name.type, meta.return.type, meta.type.parameters</string>
+       </dict>
 
-      <dict>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#b72ccf</string>
-          <key>background</key>
-          <string>#b72ccfa0</string>
-        </dict>
-        <key>scope</key>
-        <string>entity.name.type.class</string>
-        <key>name</key>
-        <string>...</string>
-      </dict>
+       <dict>
+         <key>settings</key>
+         <dict>
+           <key>foreground</key>
+           <string>#F0FFF6</string>
+         </dict>
+         <key>name</key>
+         <string>...</string>
+         <key>scope</key>
+         <string>meta.type.annotation keyword, meta.type.annotation meta.brace, meta.type.annotation punctuation, meta.type.parameters punctuation, meta.type.parameters meta.brace</string>
+       </dict>
 
-      <dict>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#00c392</string>
-          <key>background</key>
-          <string>#00c392a0</string>
-        </dict>
-        <key>scope</key>
-        <string>meta.definition entity.name.function</string>
-        <key>name</key>
-        <string>...</string>
-      </dict>
+       <dict>
+         <key>settings</key>
+         <dict>
+           <key>foreground</key>
+           <string>#4BFF92</string>
+         </dict>
+         <key>name</key>
+         <string>...</string>
+         <key>scope</key>
+         <string>entity.name.type.class</string>
+       </dict>
 
-      <dict>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#62d6b9</string>
-          <key>background</key>
-          <string>#62d6b9a0</string>
-        </dict>
-        <key>scope</key>
-        <string>entity.name.function, support.function</string>
-        <key>name</key>
-        <string>...</string>
-      </dict>
+       <dict>
+         <key>settings</key>
+         <dict>
+           <key>foreground</key>
+           <string>#9ED9FF</string>
+         </dict>
+         <key>name</key>
+         <string>...</string>
+         <key>scope</key>
+         <string>meta.definition entity.name.function, entity.name.function, support.function</string>
+       </dict>
 
-      <dict>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#b7e5fe</string>
-          <key>background</key>
-          <string>#b7e5fea0</string>
-        </dict>
-        <key>scope</key>
-        <string>string, string punctuation, constant, punctuation.definition.string</string>
-        <key>name</key>
-        <string>...</string>
-      </dict>
+       <dict>
+         <key>settings</key>
+         <dict>
+           <key>foreground</key>
+           <string>#FFC49E</string>
+         </dict>
+         <key>name</key>
+         <string>...</string>
+         <key>scope</key>
+         <string>entity.name.tag</string>
+       </dict>
 
-      <dict>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#ffa131</string>
-          <key>background</key>
-          <string>#ffa131a0</string>
-        </dict>
-        <key>scope</key>
-        <string>entity.name.tag</string>
-        <key>name</key>
-        <string>...</string>
-      </dict>
+       <dict>
+         <key>settings</key>
+         <dict>
+           <key>foreground</key>
+           <string>#FFDDC7</string>
+         </dict>
+         <key>name</key>
+         <string>...</string>
+         <key>scope</key>
+         <string>entity.other.attribute-name, meta.tag punctuation.section, meta.tag punctuation.definition, meta.tag keyword.operator.assignment</string>
+       </dict>
 
-      <dict>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#ffc886</string>
-          <key>background</key>
-          <string>#ffc886a0</string>
-        </dict>
-        <key>scope</key>
-        <string>entity.other.attribute-name, meta.tag punctuation.section, meta.tag punctuation.definition, meta.tag keyword.operator.assignment</string>
-        <key>name</key>
-        <string>...</string>
-      </dict>
+       <dict>
+         <key>settings</key>
+         <dict>
+           <key>foreground</key>
+           <string>#DFECB1</string>
+         </dict>
+         <key>name</key>
+         <string>...</string>
+         <key>scope</key>
+         <string>meta.embedded string, string, constant, punctuation.definition.string</string>
+       </dict>
+
+       <dict>
+         <key>settings</key>
+         <dict>
+           <key>foreground</key>
+           <string>#C0E73A</string>
+         </dict>
+         <key>name</key>
+         <string>...</string>
+         <key>scope</key>
+         <string>string punctuation.definition.template-expression</string>
+       </dict>
 
     </array>
   </dict>
