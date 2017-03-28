@@ -125,7 +125,7 @@
          <key>name</key>
          <string>...</string>
          <key>scope</key>
-         <string>meta.type.annotation keyword, meta.type.annotation meta.brace, meta.type.annotation punctuation, meta.type.parameters punctuation, meta.type.parameters meta.brace</string>
+         <string>meta.indexer.declaration variable.parameter, meta.type.annotation keyword, meta.type.annotation meta.brace, meta.type.annotation punctuation, meta.type.parameters punctuation, meta.type.parameters meta.brace</string>
        </dict>
 
        <dict>

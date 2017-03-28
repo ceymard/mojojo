@@ -145,6 +145,7 @@ S.from(TYPES).add(
 )
 
 S.from(TYPES.lighten(0.2)).add(
+  'meta.indexer.declaration variable.parameter',
   'meta.type.annotation keyword',
   'meta.type.annotation meta.brace',
   'meta.type.annotation punctuation',
