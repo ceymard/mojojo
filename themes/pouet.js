@@ -193,7 +193,7 @@ S.from(STRING.darken(0.3).saturate(0.3)).add(
   'string punctuation.definition.template-expression'
 )
 
-S.from(CONSTANT).add(
+S.from(CONSTANT.lighten(0.15)).add(
   'constant',
   'variable.language'
 )

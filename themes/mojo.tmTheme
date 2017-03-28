@@ -216,9 +216,9 @@
          <key>settings</key>
          <dict>
            <key>foreground</key>
-           <string>#CF81FA</string>
+           <string>#E4B8FC</string>
            <key>background</key>
-           <string>#7907B6</string>
+           <string>#8B08D2</string>
          </dict>
          <key>name</key>
          <string>...</string>
