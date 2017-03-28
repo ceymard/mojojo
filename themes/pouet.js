@@ -107,7 +107,9 @@ var settings = {
 
 S.from(COMMENT).italic().add(
   'comment',
-  'punctuation.definition.comment'
+  'punctuation.definition.comment',
+  'string.quoted.docstring',
+  'string.quoted.docstring punctuation.definition.string'
 )
 
 S.from(BASE).add(
@@ -115,6 +117,7 @@ S.from(BASE).add(
   'keyword.operator.expression',
   'keyword.other',
   'storage.type',
+  'keyword.operator.logical.python',
   'storage.modifier'
 )
 
