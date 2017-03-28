@@ -1,8 +1,8 @@
 {
-  "name": "theme-boneyfied",
-  "displayName": "boneyfied",
-  "description": "A boneyfied adaptation for vscode",
-  "version": "0.0.1",
+  "name": "mojojo",
+  "displayName": "Mojojo",
+  "description": "My custom theme, mainly targeted for a nice Typescript/TSX experience.",
+  "version": "0.1.0",
   "publisher": "ceymard",
   "engines": {
     "vscode": "^1.0.0"
