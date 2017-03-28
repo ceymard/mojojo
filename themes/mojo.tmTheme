@@ -16,7 +16,7 @@
           <key>foreground</key>
           <string>#EEEEEE</string>
           <key>background</key>
-          <string>#131517</string>
+          <string>#111415</string>
           <key>caret</key>
           <string>#EEEEEE</string>
           <key>invisibles</key>
@@ -32,7 +32,9 @@
          <key>settings</key>
          <dict>
            <key>foreground</key>
-           <string>#486E86</string>
+           <string>#446979</string>
+           <key>background</key>
+           <string>#22343D</string>
            <key>fontStyle</key>
            <string>italic</string>
          </dict>
@@ -46,12 +48,14 @@
          <key>settings</key>
          <dict>
            <key>foreground</key>
-           <string>#9EB9FF</string>
+           <string>#81ACFA</string>
+           <key>background</key>
+           <string>#0745B6</string>
          </dict>
          <key>name</key>
          <string>...</string>
          <key>scope</key>
-         <string>keyword.control, storage.type, storage.modifier</string>
+         <string>keyword.control, keyword.operator.expression, keyword.other, storage.type, storage.modifier</string>
        </dict>
 
        <dict>
@@ -59,6 +63,8 @@
          <dict>
            <key>foreground</key>
            <string>#EEEEEE</string>
+           <key>background</key>
+           <string>#777777</string>
          </dict>
          <key>name</key>
          <string>...</string>
@@ -70,7 +76,9 @@
          <key>settings</key>
          <dict>
            <key>foreground</key>
-           <string>#DCF1FF</string>
+           <string>#B8E7FC</string>
+           <key>background</key>
+           <string>#0892D2</string>
          </dict>
          <key>name</key>
          <string>...</string>
@@ -82,7 +90,9 @@
          <key>settings</key>
          <dict>
            <key>foreground</key>
-           <string>#DCE5FF</string>
+           <string>#B8D0FC</string>
+           <key>background</key>
+           <string>#084FD2</string>
          </dict>
          <key>name</key>
          <string>...</string>
@@ -94,19 +104,23 @@
          <key>settings</key>
          <dict>
            <key>foreground</key>
-           <string>#9EFFC4</string>
+           <string>#81FAA7</string>
+           <key>background</key>
+           <string>#07B63E</string>
          </dict>
          <key>name</key>
          <string>...</string>
          <key>scope</key>
-         <string>meta.type.annotation, entity.name.type, meta.return.type, meta.type.parameters</string>
+         <string>meta.type.annotation, entity.name.type, meta.return.type, meta.type.parameters, support.type</string>
        </dict>
 
        <dict>
          <key>settings</key>
          <dict>
            <key>foreground</key>
-           <string>#F0FFF6</string>
+           <string>#CAFDDA</string>
+           <key>background</key>
+           <string>#09DB4B</string>
          </dict>
          <key>name</key>
          <string>...</string>
@@ -118,7 +132,9 @@
          <key>settings</key>
          <dict>
            <key>foreground</key>
-           <string>#4BFF92</string>
+           <string>#38F774</string>
+           <key>background</key>
+           <string>#069232</string>
          </dict>
          <key>name</key>
          <string>...</string>
@@ -130,7 +146,9 @@
          <key>settings</key>
          <dict>
            <key>foreground</key>
-           <string>#9ED9FF</string>
+           <string>#81D4FA</string>
+           <key>background</key>
+           <string>#077FB6</string>
          </dict>
          <key>name</key>
          <string>...</string>
@@ -142,7 +160,9 @@
          <key>settings</key>
          <dict>
            <key>foreground</key>
-           <string>#FFC49E</string>
+           <string>#FAA781</string>
+           <key>background</key>
+           <string>#B63E07</string>
          </dict>
          <key>name</key>
          <string>...</string>
@@ -154,7 +174,9 @@
          <key>settings</key>
          <dict>
            <key>foreground</key>
-           <string>#FFDDC7</string>
+           <string>#FBC0A5</string>
+           <key>background</key>
+           <string>#C84408</string>
          </dict>
          <key>name</key>
          <string>...</string>
@@ -166,24 +188,42 @@
          <key>settings</key>
          <dict>
            <key>foreground</key>
-           <string>#DFECB1</string>
+           <string>#D7E299</string>
+           <key>background</key>
+           <string>#84932A</string>
          </dict>
          <key>name</key>
          <string>...</string>
          <key>scope</key>
-         <string>meta.embedded string, string, constant, punctuation.definition.string</string>
+         <string>meta.embedded string, punctuation.definition.string, string</string>
        </dict>
 
        <dict>
          <key>settings</key>
          <dict>
            <key>foreground</key>
-           <string>#C0E73A</string>
+           <string>#C3DD2D</string>
+           <key>background</key>
+           <string>#647213</string>
          </dict>
          <key>name</key>
          <string>...</string>
          <key>scope</key>
          <string>string punctuation.definition.template-expression</string>
+       </dict>
+
+       <dict>
+         <key>settings</key>
+         <dict>
+           <key>foreground</key>
+           <string>#CF81FA</string>
+           <key>background</key>
+           <string>#7907B6</string>
+         </dict>
+         <key>name</key>
+         <string>...</string>
+         <key>scope</key>
+         <string>constant, variable.language</string>
        </dict>
 
     </array>

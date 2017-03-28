@@ -34,6 +34,7 @@ class S {
   static from(color) {
     var res = new S()
     res.settings.foreground = color.hex()
+    res.settings.background = color.darken(0.5).hex()
     S.scopes.push(res)
     return res
   }
@@ -77,12 +78,16 @@ var FG = c('#eeeeee')
 // Base color
 
 // blueish
-var FN = c('#68c4ff').saturate(0.2).lighten(0.15)
+// var FN = c('#68c4ff').saturate(0.2).lighten(0.15)
+var FN = c('#81d4fa')
+// var FN = c('#80defa')
+// var FN = c('#80cbc4')
 
 var TSX = FN.rotate(180)
 var TYPES = FN.rotate(-60)
 var BASE = FN.rotate(20)
-var CONSTANT = FN.rotate(230).desaturate(0.4)
+var STRING = FN.rotate(230).desaturate(0.4)
+var CONSTANT = FN.rotate(80)
 
 var COMMENT = FN.darken(0.5).desaturate(0.7)
 var BG = FN.darken(0.9).desaturate(0.9)
@@ -107,6 +112,8 @@ S.from(COMMENT).italic().add(
 
 S.from(BASE).add(
   'keyword.control',
+  'keyword.operator.expression',
+  'keyword.other',
   'storage.type',
   'storage.modifier'
 )
@@ -133,7 +140,8 @@ S.from(TYPES).add(
   'meta.type.annotation',
   'entity.name.type',
   'meta.return.type',
-  'meta.type.parameters'
+  'meta.type.parameters',
+  'support.type'
 )
 
 S.from(TYPES.lighten(0.2)).add(
@@ -166,16 +174,21 @@ S.from(TSX.lighten(0.1)).add(
   'meta.tag keyword.operator.assignment'
 )
 
-S.from(CONSTANT).add(
+S.from(STRING).add(
   'meta.embedded string',
-  'string',
-  'constant',
-  'punctuation.definition.string'
+  'punctuation.definition.string',
+  'string'
 )
 
-S.from(CONSTANT.darken(0.3).saturate(0.3)).add(
+S.from(STRING.darken(0.3).saturate(0.3)).add(
   'string punctuation.definition.template-expression'
 )
+
+S.from(CONSTANT).add(
+  'constant',
+  'variable.language'
+)
+
 
 var res = `<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist
