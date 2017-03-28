@@ -141,11 +141,13 @@ S.from(TYPES).add(
   'entity.name.type',
   'meta.return.type',
   'meta.type.parameters',
+  'entity.other.inherited-class',
   'support.type'
 )
 
 S.from(TYPES.lighten(0.2)).add(
   'meta.indexer.declaration variable.parameter',
+  'punctuation.definition.typeparameters',
   'meta.type.annotation keyword',
   'meta.type.annotation meta.brace',
   'meta.type.annotation punctuation',
