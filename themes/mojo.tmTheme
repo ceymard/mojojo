@@ -55,7 +55,7 @@
          <key>name</key>
          <string>...</string>
          <key>scope</key>
-         <string>keyword.control, keyword.operator.expression, keyword.other, storage.type, keyword.operator.logical.python, storage.modifier</string>
+         <string>keyword.control, keyword.operator.expression, keyword.operator.new, keyword.other, storage.type, keyword.operator.logical.python, storage.modifier</string>
        </dict>
 
        <dict>

@@ -115,6 +115,7 @@ S.from(COMMENT).italic().add(
 S.from(BASE).add(
   'keyword.control',
   'keyword.operator.expression',
+  'keyword.operator.new',
   'keyword.other',
   'storage.type',
   'keyword.operator.logical.python',
