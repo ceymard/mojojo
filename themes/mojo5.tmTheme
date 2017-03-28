@@ -16,7 +16,7 @@
           <key>foreground</key>
           <string>#EEEEEE</string>
           <key>background</key>
-          <string>#111415</string>
+          <string>#111512</string>
           <key>caret</key>
           <string>#EEEEEE</string>
           <key>invisibles</key>
@@ -26,11 +26,11 @@
           <key>tagsOptions</key>
           <string>underline</string>
           <key>lineHighlight</key>
-          <string>#022637</string>
+          <string>#023713</string>
           <key>selection</key>
-          <string>#066692</string>
+          <string>#069232</string>
           <key>selectionBorder</key>
-          <string>#033349</string>
+          <string>#034919</string>
         </dict>
       </dict>
 
@@ -38,9 +38,9 @@
          <key>settings</key>
          <dict>
            <key>foreground</key>
-           <string>#446979</string>
+           <string>#447955</string>
            <key>background</key>
-           <string>#22343D</string>
+           <string>#223D2A</string>
            <key>fontStyle</key>
            <string>italic</string>
          </dict>
@@ -54,9 +54,9 @@
          <key>settings</key>
          <dict>
            <key>foreground</key>
-           <string>#81ACFA</string>
+           <string>#81FACF</string>
            <key>background</key>
-           <string>#0745B6</string>
+           <string>#07B679</string>
          </dict>
          <key>name</key>
          <string>...</string>
@@ -82,9 +82,9 @@
          <key>settings</key>
          <dict>
            <key>foreground</key>
-           <string>#B8E7FC</string>
+           <string>#B8FCCD</string>
            <key>background</key>
-           <string>#0892D2</string>
+           <string>#08D248</string>
          </dict>
          <key>name</key>
          <string>...</string>
@@ -96,14 +96,56 @@
          <key>settings</key>
          <dict>
            <key>foreground</key>
-           <string>#B8D0FC</string>
+           <string>#B8FCE4</string>
            <key>background</key>
-           <string>#084FD2</string>
+           <string>#08D28B</string>
          </dict>
          <key>name</key>
          <string>...</string>
          <key>scope</key>
          <string>meta.objectliteral punctuation.definition, meta.objectliteral meta.object-literal.key</string>
+       </dict>
+
+       <dict>
+         <key>settings</key>
+         <dict>
+           <key>foreground</key>
+           <string>#D4FA81</string>
+           <key>background</key>
+           <string>#7FB607</string>
+         </dict>
+         <key>name</key>
+         <string>...</string>
+         <key>scope</key>
+         <string>meta.type.annotation, entity.name.type, meta.return.type, meta.type.parameters, entity.other.inherited-class, support.type</string>
+       </dict>
+
+       <dict>
+         <key>settings</key>
+         <dict>
+           <key>foreground</key>
+           <string>#EDFDCA</string>
+           <key>background</key>
+           <string>#99DB09</string>
+         </dict>
+         <key>name</key>
+         <string>...</string>
+         <key>scope</key>
+         <string>meta.indexer.declaration variable.parameter, meta.object.type punctuation.definition, meta.definition.property variable.object.property, punctuation.definition.typeparameters, meta.type.annotation keyword, meta.type.annotation meta.brace, meta.type.annotation punctuation, meta.type.parameters punctuation, meta.type.parameters meta.brace</string>
+       </dict>
+
+       <dict>
+         <key>settings</key>
+         <dict>
+           <key>foreground</key>
+           <string>#BBF738</string>
+           <key>background</key>
+           <string>#669206</string>
+         </dict>
+         <key>name</key>
+         <string>...</string>
+         <key>scope</key>
+         <string>entity.name.type.class</string>
        </dict>
 
        <dict>
@@ -117,48 +159,6 @@
          <key>name</key>
          <string>...</string>
          <key>scope</key>
-         <string>meta.type.annotation, entity.name.type, meta.return.type, meta.type.parameters, entity.other.inherited-class, support.type</string>
-       </dict>
-
-       <dict>
-         <key>settings</key>
-         <dict>
-           <key>foreground</key>
-           <string>#CAFDDA</string>
-           <key>background</key>
-           <string>#09DB4B</string>
-         </dict>
-         <key>name</key>
-         <string>...</string>
-         <key>scope</key>
-         <string>meta.indexer.declaration variable.parameter, meta.object.type punctuation.definition, meta.definition.property variable.object.property, punctuation.definition.typeparameters, meta.type.annotation keyword, meta.type.annotation meta.brace, meta.type.annotation punctuation, meta.type.parameters punctuation, meta.type.parameters meta.brace</string>
-       </dict>
-
-       <dict>
-         <key>settings</key>
-         <dict>
-           <key>foreground</key>
-           <string>#38F774</string>
-           <key>background</key>
-           <string>#069232</string>
-         </dict>
-         <key>name</key>
-         <string>...</string>
-         <key>scope</key>
-         <string>entity.name.type.class</string>
-       </dict>
-
-       <dict>
-         <key>settings</key>
-         <dict>
-           <key>foreground</key>
-           <string>#81D4FA</string>
-           <key>background</key>
-           <string>#077FB6</string>
-         </dict>
-         <key>name</key>
-         <string>...</string>
-         <key>scope</key>
          <string>meta.definition entity.name.function, entity.name.function, support.function</string>
        </dict>
 
@@ -166,9 +166,9 @@
          <key>settings</key>
          <dict>
            <key>foreground</key>
-           <string>#FAA781</string>
+           <string>#FA81D4</string>
            <key>background</key>
-           <string>#B63E07</string>
+           <string>#B6077F</string>
          </dict>
          <key>name</key>
          <string>...</string>
@@ -180,9 +180,9 @@
          <key>settings</key>
          <dict>
            <key>foreground</key>
-           <string>#FBC0A5</string>
+           <string>#FBA5E0</string>
            <key>background</key>
-           <string>#C84408</string>
+           <string>#C8088C</string>
          </dict>
          <key>name</key>
          <string>...</string>
@@ -194,9 +194,9 @@
          <key>settings</key>
          <dict>
            <key>foreground</key>
-           <string>#D7E299</string>
+           <string>#E2A499</string>
            <key>background</key>
-           <string>#84932A</string>
+           <string>#933A2A</string>
          </dict>
          <key>name</key>
          <string>...</string>
@@ -208,9 +208,9 @@
          <key>settings</key>
          <dict>
            <key>foreground</key>
-           <string>#C3DD2D</string>
+           <string>#DD462D</string>
            <key>background</key>
-           <string>#647213</string>
+           <string>#722113</string>
          </dict>
          <key>name</key>
          <string>...</string>
@@ -222,9 +222,9 @@
          <key>settings</key>
          <dict>
            <key>foreground</key>
-           <string>#E4B8FC</string>
+           <string>#B8D0FC</string>
            <key>background</key>
-           <string>#8B08D2</string>
+           <string>#084FD2</string>
          </dict>
          <key>name</key>
          <string>...</string>

@@ -79,7 +79,8 @@ var FG = c('#eeeeee')
 
 // blueish
 // var FN = c('#68c4ff').saturate(0.2).lighten(0.15)
-var FN = c('#81d4fa')
+var FN = c('#81d4fa').rotate(parseInt(process.argv[2] || 0))
+
 // var FN = c('#80defa')
 // var FN = c('#80cbc4')
 
@@ -98,10 +99,13 @@ var settings = {
   caret: FG.hex(),
   invisibles: FG.hex(),
   bracketContentsOptions: 'underline',
-  tagsOptions: 'underline'
-  // lineHighlight:
-  // selection:
-  // selectionBorder:
+  tagsOptions: 'underline',
+  lineHighlight: FN.darken(0.85).hex(),
+  selection: FN.darken(0.6).hex(),
+  selectionBorder: FN.darken(0.8).hex()
+
+  // VSCode
+
   // tagsForeground:
 }
 
@@ -218,4 +222,5 @@ ${S.scopes.map(s => s.render('       ')).join('\n')}
 </plist>
 `
 
-fs.writeFileSync('mojo.tmTheme', res, {encoding: 'utf-8'})
+console.log(res)
+// fs.writeFileSync('mojo.tmTheme', res, {encoding: 'utf-8'})
