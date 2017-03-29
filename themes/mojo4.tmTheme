@@ -16,7 +16,7 @@
           <key>foreground</key>
           <string>#EEEEEE</string>
           <key>background</key>
-          <string>#151211</string>
+          <string>#151311</string>
           <key>caret</key>
           <string>#EEEEEE</string>
           <key>invisibles</key>
@@ -26,11 +26,11 @@
           <key>tagsOptions</key>
           <string>underline</string>
           <key>lineHighlight</key>
-          <string>#371302</string>
+          <string>#372402</string>
           <key>selection</key>
-          <string>#923206</string>
+          <string>#926006</string>
           <key>selectionBorder</key>
-          <string>#491903</string>
+          <string>#493003</string>
         </dict>
       </dict>
 
@@ -38,9 +38,9 @@
          <key>settings</key>
          <dict>
            <key>foreground</key>
-           <string>#795544</string>
+           <string>#796644</string>
            <key>background</key>
-           <string>#3D2A22</string>
+           <string>#3D3322</string>
            <key>fontStyle</key>
            <string>italic</string>
          </dict>
@@ -82,20 +82,6 @@
          <key>settings</key>
          <dict>
            <key>foreground</key>
-           <string>#FCCDB8</string>
-           <key>background</key>
-           <string>#D24808</string>
-         </dict>
-         <key>name</key>
-         <string>...</string>
-         <key>scope</key>
-         <string>meta.definition.variable, meta.parameters punctuation, meta.parameters punctuation.definition, variable.parameter</string>
-       </dict>
-
-       <dict>
-         <key>settings</key>
-         <dict>
-           <key>foreground</key>
            <string>#FCE4B8</string>
            <key>background</key>
            <string>#D28B08</string>
@@ -110,6 +96,38 @@
          <key>settings</key>
          <dict>
            <key>foreground</key>
+           <string>#FCE4B8</string>
+           <key>background</key>
+           <string>#D28B08</string>
+           <key>fontStyle</key>
+           <string>bold</string>
+         </dict>
+         <key>name</key>
+         <string>...</string>
+         <key>scope</key>
+         <string>markup.bold</string>
+       </dict>
+
+       <dict>
+         <key>settings</key>
+         <dict>
+           <key>foreground</key>
+           <string>#FCE4B8</string>
+           <key>background</key>
+           <string>#D28B08</string>
+           <key>fontStyle</key>
+           <string>italic</string>
+         </dict>
+         <key>name</key>
+         <string>...</string>
+         <key>scope</key>
+         <string>markup.italic</string>
+       </dict>
+
+       <dict>
+         <key>settings</key>
+         <dict>
+           <key>foreground</key>
            <string>#FA81D4</string>
            <key>background</key>
            <string>#B6077F</string>
@@ -117,7 +135,7 @@
          <key>name</key>
          <string>...</string>
          <key>scope</key>
-         <string>meta.type.annotation, entity.name.type, meta.return.type, meta.type.parameters, entity.other.inherited-class, support.type</string>
+         <string>meta.type.annotation, entity.name.type, meta.return.type, meta.type.parameters, entity.other.inherited-class, support.type, markup.list beginning.punctuation</string>
        </dict>
 
        <dict>
@@ -131,7 +149,7 @@
          <key>name</key>
          <string>...</string>
          <key>scope</key>
-         <string>meta.indexer.declaration variable.parameter, meta.object.type punctuation.definition, meta.type.annotation variable.object.property, punctuation.definition.typeparameters, meta.type.annotation keyword, meta.type.annotation meta.brace, meta.type.annotation punctuation, meta.type.parameters punctuation, meta.type.parameters meta.brace</string>
+         <string>meta.indexer.declaration variable.parameter, meta.object.type punctuation.definition, meta.type.annotation variable.object.property, punctuation.definition.typeparameters, meta.type.annotation keyword, meta.type.annotation meta.brace, meta.type.annotation punctuation, meta.type.parameters punctuation, meta.type.parameters meta.brace, markup.quote</string>
        </dict>
 
        <dict>
@@ -152,14 +170,28 @@
          <key>settings</key>
          <dict>
            <key>foreground</key>
-           <string>#FAA781</string>
+           <string>#FACF81</string>
            <key>background</key>
-           <string>#B63E07</string>
+           <string>#B67907</string>
          </dict>
          <key>name</key>
          <string>...</string>
          <key>scope</key>
-         <string>meta.definition entity.name.function, entity.name.function, support.function</string>
+         <string>meta.definition entity.name.function, entity.name.function, support.function, markup.heading</string>
+       </dict>
+
+       <dict>
+         <key>settings</key>
+         <dict>
+           <key>foreground</key>
+           <string>#FCE4B8</string>
+           <key>background</key>
+           <string>#D28B08</string>
+         </dict>
+         <key>name</key>
+         <string>...</string>
+         <key>scope</key>
+         <string>meta.definition.variable, meta.parameters punctuation, meta.parameters punctuation.definition, variable.parameter, markup.heading punctuation</string>
        </dict>
 
        <dict>
@@ -173,7 +205,7 @@
          <key>name</key>
          <string>...</string>
          <key>scope</key>
-         <string>entity.name.tag</string>
+         <string>entity.name.tag, markup.inline punctuation, markup.fenced#code punctuation</string>
        </dict>
 
        <dict>
@@ -187,16 +219,16 @@
          <key>name</key>
          <string>...</string>
          <key>scope</key>
-         <string>entity.other.attribute-name, meta.tag punctuation.section, meta.tag punctuation.definition, meta.tag keyword.operator.assignment</string>
+         <string>entity.other.attribute-name, meta.tag punctuation.section, meta.tag punctuation.definition, meta.tag keyword.operator.assignment, markup.inline, markup.fenced#code</string>
        </dict>
 
        <dict>
          <key>settings</key>
          <dict>
            <key>foreground</key>
-           <string>#A499E2</string>
+           <string>#BC99E2</string>
            <key>background</key>
-           <string>#3A2A93</string>
+           <string>#5D2A93</string>
          </dict>
          <key>name</key>
          <string>...</string>
@@ -208,9 +240,23 @@
          <key>settings</key>
          <dict>
            <key>foreground</key>
-           <string>#462DDD</string>
+           <string>#E3D4F3</string>
            <key>background</key>
-           <string>#211372</string>
+           <string>#6F33B1</string>
+         </dict>
+         <key>name</key>
+         <string>...</string>
+         <key>scope</key>
+         <string>meta.link.inline.markdown, meta.link.inline.markdown punctuation.definition.string, meta.image.inline, meta.image.inline punctuation.definition.string</string>
+       </dict>
+
+       <dict>
+         <key>settings</key>
+         <dict>
+           <key>foreground</key>
+           <string>#812DDD</string>
+           <key>background</key>
+           <string>#401372</string>
          </dict>
          <key>name</key>
          <string>...</string>
@@ -222,9 +268,9 @@
          <key>settings</key>
          <dict>
            <key>foreground</key>
-           <string>#D0FCB8</string>
+           <string>#B9FCB8</string>
            <key>background</key>
-           <string>#4FD208</string>
+           <string>#0CD208</string>
          </dict>
          <key>name</key>
          <string>...</string>

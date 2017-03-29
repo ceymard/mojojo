@@ -79,19 +79,19 @@ var FG = c('#eeeeee')
 
 // blueish
 // var FN = c('#68c4ff').saturate(0.2).lighten(0.15)
-var FN = c('#81d4fa').rotate(parseInt(process.argv[2] || 0))
+var BASE = c('#81d4fa').rotate(parseInt(process.argv[2] || 0))
 
 // var FN = c('#80defa')
 // var FN = c('#80cbc4')
 
-var TSX = FN.rotate(180)
-var TYPES = FN.rotate(-60)
-var BASE = FN.rotate(20)
-var STRING = FN.rotate(230).desaturate(0.4)
-var CONSTANT = FN.rotate(80)
+var OPPOSITE = BASE.rotate(180)
+var TYPES = BASE.rotate(-60)
+var BASE = BASE.rotate(20)
+var STRING = BASE.rotate(230).desaturate(0.4)
+var CONSTANT = BASE.rotate(80)
 
-var COMMENT = FN.darken(0.5).desaturate(0.7)
-var BG = FN.darken(0.9).desaturate(0.9)
+var COMMENT = BASE.darken(0.5).desaturate(0.7)
+var BG = BASE.darken(0.9).desaturate(0.9)
 
 var settings = {
   foreground: FG.hex(),
@@ -100,9 +100,9 @@ var settings = {
   invisibles: FG.hex(),
   bracketContentsOptions: 'underline',
   tagsOptions: 'underline',
-  lineHighlight: FN.darken(0.85).hex(),
-  selection: FN.darken(0.6).hex(),
-  selectionBorder: FN.darken(0.8).hex()
+  lineHighlight: BASE.darken(0.85).hex(),
+  selection: BASE.darken(0.6).hex(),
+  selectionBorder: BASE.darken(0.8).hex()
 
   // VSCode
 
@@ -132,17 +132,21 @@ S.from(FG).add(
   'string keyword'
 )
 
-S.from(FN.lighten(0.15)).add(
-  'meta.definition.variable',
-  'meta.parameters punctuation',
-  'meta.parameters punctuation.definition',
-  'variable.parameter'
-)
 
 S.from(BASE.lighten(0.15)).add(
   'meta.objectliteral punctuation.definition',
   'meta.objectliteral meta.object-literal.key',
   'meta.class variable.object.property'
+)
+
+// markdown
+S.from(BASE.lighten(0.15)).bold().add(
+  'markup.bold'
+)
+
+// markdown
+S.from(BASE.lighten(0.15)).italic().add(
+  'markup.italic'
 )
 
 S.from(TYPES).add(
@@ -151,7 +155,10 @@ S.from(TYPES).add(
   'meta.return.type',
   'meta.type.parameters',
   'entity.other.inherited-class',
-  'support.type'
+  'support.type',
+
+  // markdown
+  'markup.list beginning.punctuation'
 )
 
 S.from(TYPES.lighten(0.2)).add(
@@ -163,35 +170,61 @@ S.from(TYPES.lighten(0.2)).add(
   'meta.type.annotation meta.brace',
   'meta.type.annotation punctuation',
   'meta.type.parameters punctuation',
-  'meta.type.parameters meta.brace'
+  'meta.type.parameters meta.brace',
+
+  // markdown
+  'markup.quote'
 )
 
 S.from(TYPES.darken(0.2)).add(
   'entity.name.type.class'
 )
 
-S.from(FN).add(
+S.from(BASE).add(
   'meta.definition entity.name.function',
   'entity.name.function',
-  'support.function'
+  'support.function',
+  // markdown
+  'markup.heading'
+)
+
+S.from(BASE.lighten(0.15)).add(
+  'meta.definition.variable',
+  'meta.parameters punctuation',
+  'meta.parameters punctuation.definition',
+  'variable.parameter',
+  // Markdown
+  'markup.heading punctuation'
+)
+
+S.from(OPPOSITE).add(
+  'entity.name.tag',
+  'markup.inline punctuation',
+  'markup.fenced_code punctuation'
 )
 
 
-S.from(TSX).add(
-  'entity.name.tag'
-)
-
-S.from(TSX.lighten(0.1)).add(
+S.from(OPPOSITE.lighten(0.1)).add(
   'entity.other.attribute-name',
   'meta.tag punctuation.section',
   'meta.tag punctuation.definition',
-  'meta.tag keyword.operator.assignment'
+  'meta.tag keyword.operator.assignment',
+  // markdown
+  'markup.inline',
+  'markup.fenced_code'
 )
 
 S.from(STRING).add(
   'meta.embedded string',
   'punctuation.definition.string',
   'string'
+)
+
+S.from(STRING.lighten(0.2)).add(
+  'meta.link.inline.markdown',
+  'meta.link.inline.markdown punctuation.definition.string',
+  'meta.image.inline',
+  'meta.image.inline punctuation.definition.string'
 )
 
 S.from(STRING.darken(0.3).saturate(0.3)).add(

@@ -1,13 +1,16 @@
-# README
-## This is the README for your extension "theme-boneyfied"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Mojojo Theme
 
-* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
+Mojojo is theme built from the ground up with typescript code editing in mind and
+for Visual Studio Code.
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+The most notable feature is that the colors are meant to distinguish the different
+kinds of manipulated object ; jsx/tsx code is this clearly different from the rest.
 
-**Enjoy!**
+It comes in six flavors ;
+
+![](https://github.com/ceymard/mojojo/raw/master/img/mojo1.png)
+![](https://github.com/ceymard/mojojo/raw/master/img/mojo2.png)
+![](https://github.com/ceymard/mojojo/raw/master/img/mojo3.png)
+![](https://github.com/ceymard/mojojo/raw/master/img/mojo4.png)
+![](https://github.com/ceymard/mojojo/raw/master/img/mojo5.png)
+![](https://github.com/ceymard/mojojo/raw/master/img/mojo6.png)
