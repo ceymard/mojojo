@@ -141,7 +141,8 @@ S.from(FN.lighten(0.15)).add(
 
 S.from(BASE.lighten(0.15)).add(
   'meta.objectliteral punctuation.definition',
-  'meta.objectliteral meta.object-literal.key'
+  'meta.objectliteral meta.object-literal.key',
+  'meta.class variable.object.property'
 )
 
 S.from(TYPES).add(
@@ -156,7 +157,7 @@ S.from(TYPES).add(
 S.from(TYPES.lighten(0.2)).add(
   'meta.indexer.declaration variable.parameter',
   'meta.object.type punctuation.definition',
-  'meta.definition.property variable.object.property',
+  'meta.type.annotation variable.object.property',
   'punctuation.definition.typeparameters',
   'meta.type.annotation keyword',
   'meta.type.annotation meta.brace',
