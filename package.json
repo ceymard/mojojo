@@ -11,44 +11,47 @@
     "Themes"
   ],
   "scripts": {
-    "build": "node gen.js > ./themes/mojo.tmTheme && node gen.js 60 > ./themes/mojo2.tmTheme && node gen.js 120 > ./themes/mojo3.tmTheme && node gen.js 180 > ./themes/mojo4.tmTheme && node gen.js -60 > ./themes/mojo5.tmTheme && node gen.js -120 > ./themes/mojo6.tmTheme"
+    "build": "node gen.js > ./themes/mojo.json && node gen.js 60 > ./themes/mojo2.json && node gen.js 120 > ./themes/mojo3.json && node gen.js 180 > ./themes/mojo4.json && node gen.js -60 > ./themes/mojo5.json && node gen.js -120 > ./themes/mojo6.json"
   },
   "contributes": {
     "themes": [
       {
         "label": "Mojojo Blue",
         "uiTheme": "vs-dark",
-        "path": "./themes/mojo.tmTheme"
+        "path": "./themes/mojo.json"
       },
       {
         "label": "Mojojo Purple",
         "uiTheme": "vs-dark",
-        "path": "./themes/mojo2.tmTheme"
+        "path": "./themes/mojo2.json"
       },
       {
         "label": "Mojojo Red",
         "uiTheme": "vs-dark",
-        "path": "./themes/mojo3.tmTheme"
+        "path": "./themes/mojo3.json"
       },
       {
         "label": "Mojojo Orange",
         "uiTheme": "vs-dark",
-        "path": "./themes/mojo4.tmTheme"
+        "path": "./themes/mojo4.json"
       },
       {
         "label": "Mojojo Green",
         "uiTheme": "vs-dark",
-        "path": "./themes/mojo5.tmTheme"
+        "path": "./themes/mojo5.json"
       },
       {
         "label": "Mojojo Lemon",
         "uiTheme": "vs-dark",
-        "path": "./themes/mojo6.tmTheme"
+        "path": "./themes/mojo6.json"
       }
     ]
   },
   "devDependencies": {
     "color": "^1.0.3",
     "js-yaml": "^3.8.2"
+  },
+  "dependencies": {
+    "flat": "^2.0.1"
   }
 }

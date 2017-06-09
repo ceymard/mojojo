@@ -3,6 +3,7 @@
 const fs = require('fs')
 const y = require('js-yaml')
 const c = require('color')
+const flat = require('flat')
 
 // var base = y.load(fs.readFileSync('mojo.yml', 'utf-8'))
 
@@ -65,6 +66,13 @@ class S {
       scope: this.scopes.join(', ')
     }, indent)
   }
+
+  renderObj() {
+    return {
+      scope: this.scopes.join(', '),
+      settings: this.settings
+    }
+  }
 }
 
 S.scopes = []
@@ -78,7 +86,7 @@ var FG = c('#eeeeee')
 // Base color
 
 // blueish
-// var FN = c('#68c4ff').saturate(0.2).lighten(0.15)
+// var BASE = c('#68c4ff').saturate(0.2).lighten(0.15)
 var BASE = c('#81d4fa').rotate(parseInt(process.argv[2] || 0))
 
 // var FN = c('#80defa')
@@ -93,21 +101,65 @@ var CONSTANT = BASE.rotate(80)
 var COMMENT = BASE.darken(0.5).desaturate(0.7)
 var BG = BASE.darken(0.9).desaturate(0.9)
 
-var settings = {
-  foreground: FG.hex(),
-  background: BG.hex(),
-  caret: FG.hex(),
-  invisibles: FG.hex(),
-  bracketContentsOptions: 'underline',
-  tagsOptions: 'underline',
-  lineHighlight: BASE.darken(0.85).hex(),
-  selection: BASE.darken(0.6).hex(),
-  selectionBorder: BASE.darken(0.8).hex()
+
+/////////////////////////////////////////////////////////////////////
+
+const BORDER = BG.lighten(0.5)
+
+var colors = {
+  foreground: FG,
+  'widget.shadow': BG.lighten(0.6),
+  activityBar: {
+    background: BG,
+    foreground: FG.darken(0.5),
+    border: BORDER
+  },
+  activityBarBadge: {
+    background: BASE.darken(0.2),
+    foreground: BASE.darken(0.6)
+  },
+  sideBar: {
+    background: BG,
+    foreground: FG,
+    border: BORDER
+  },
+  sideBarSectionHeader: {
+    background: BG.lighten(0.5),
+    foreground: FG
+  },
+  editorGroupHeader: {
+    tabsBackground: BG
+  },
+  tab: {
+    inactiveBackground: BG,
+    inactiveForeground: FG.darken(0.5),
+    activeBackground: BG.lighten(1),
+    activeForeground: FG,
+    border: BORDER
+  },
+  editor: {
+    foreground: FG,
+    background: BG,
+    lineHighlightBackground: BASE.darken(0.85),
+    selection: BASE.darken(0.6),
+    selectionBorder: BASE.darken(0.8),
+  },
+  editorBracketMatch: {
+    background: BASE.darken(0.5),
+    border: BASE.darken(0.55)
+  },
+  statusBar: {
+    background: BASE.darken(0.6)
+  },
 
   // VSCode
+  'editorIndentGuide.background': BG.lighten(0.4)
 
   // tagsForeground:
 }
+
+
+/////////////////////////////////////////////////////////////////////
 
 S.from(COMMENT).italic().add(
   'comment',
@@ -237,24 +289,42 @@ S.from(CONSTANT.lighten(0.15)).add(
 )
 
 
-var res = `<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist
-  PUBLIC '-//Apple//DTD PLIST 1.0//EN'
-  'http://www.apple.com/DTDs/PropertyList-1.0.dtd'>
-<plist version="1.0">
-  <dict>
-    <key>name</key>
-    <string>${NAME}</string>
-    <key>comment</key>
-    <string></string>
-    <key>settings</key>
-    <array>
-${dct({settings: settings}, '      ')}
-${S.scopes.map(s => s.render('       ')).join('\n')}
-    </array>
-  </dict>
-</plist>
-`
+// var res = `<?xml version="1.0" encoding="UTF-8"?>
+// <!DOCTYPE plist
+//   PUBLIC '-//Apple//DTD PLIST 1.0//EN'
+//   'http://www.apple.com/DTDs/PropertyList-1.0.dtd'>
+// <plist version="1.0">
+//   <dict>
+//     <key>name</key>
+//     <string>${NAME}</string>
+//     <key>comment</key>
+//     <string></string>
+//     <key>settings</key>
+//     <array>
+// ${dct({settings: settings}, '      ')}
+// ${S.scopes.map(s => s.render('       ')).join('\n')}
+//     </array>
+//   </dict>
+// </plist>
+// `
 
-console.log(res)
+function hexify(dct) {
+  for (var x in dct) {
+    if (typeof dct[x].hex === 'function') {
+      dct[x] = dct[x].hex()
+    } else if (dct[x].constructor === Object) {
+      hexify(dct[x])
+    }
+  }
+  return dct
+}
+
+var res = {
+  type: 'dark',
+  colors: flat.flatten(hexify(colors)),
+  tokenColors: S.scopes.map(s => s.renderObj())
+}
+
+// console.log(res)
+console.log(JSON.stringify(res, null, 2))
 // fs.writeFileSync('mojo.tmTheme', res, {encoding: 'utf-8'})
