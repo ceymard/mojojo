@@ -1,57 +1,62 @@
 {
-  "name": "mojojo",
-  "displayName": "Mojojo",
-  "description": "My custom theme, mainly targeted for a nice Typescript/TSX experience.",
-  "version": "0.2.0",
-  "publisher": "ceymard",
-  "engines": {
-    "vscode": "^1.0.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "scripts": {
-    "build": "node gen.js > ./themes/mojo.json && node gen.js 60 > ./themes/mojo2.json && node gen.js 120 > ./themes/mojo3.json && node gen.js 180 > ./themes/mojo4.json && node gen.js -60 > ./themes/mojo5.json && node gen.js -120 > ./themes/mojo6.json"
-  },
-  "contributes": {
-    "themes": [
-      {
-        "label": "Mojojo Blue",
-        "uiTheme": "vs-dark",
-        "path": "./themes/mojo.json"
-      },
-      {
-        "label": "Mojojo Purple",
-        "uiTheme": "vs-dark",
-        "path": "./themes/mojo2.json"
-      },
-      {
-        "label": "Mojojo Red",
-        "uiTheme": "vs-dark",
-        "path": "./themes/mojo3.json"
-      },
-      {
-        "label": "Mojojo Orange",
-        "uiTheme": "vs-dark",
-        "path": "./themes/mojo4.json"
-      },
-      {
-        "label": "Mojojo Green",
-        "uiTheme": "vs-dark",
-        "path": "./themes/mojo5.json"
-      },
-      {
-        "label": "Mojojo Lemon",
-        "uiTheme": "vs-dark",
-        "path": "./themes/mojo6.json"
-      }
-    ]
-  },
-  "devDependencies": {
-    "color": "^1.0.3",
-    "js-yaml": "^3.8.2"
-  },
-  "dependencies": {
-    "flat": "^2.0.1"
-  }
+	"name": "mojojo",
+	"displayName": "Mojojo",
+	"description": "My custom theme, mainly targeted for a nice Typescript/TSX experience.",
+	"version": "0.2.0",
+	"publisher": "ceymard",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"scripts": {
+		"build": "node gen.js > ./themes/mojo.json && node gen.js 60 > ./themes/mojo2.json && node gen.js 120 > ./themes/mojo3.json && node gen.js 180 > ./themes/mojo4.json && node gen.js -60 > ./themes/mojo5.json && node gen.js -120 > ./themes/mojo6.json"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Mojojo Blue",
+				"uiTheme": "vs-dark",
+				"path": "./themes/mojo.json"
+			},
+			{
+				"label": "Mojojo Purple",
+				"uiTheme": "vs-dark",
+				"path": "./themes/mojo2.json"
+			},
+			{
+				"label": "Mojojo Red",
+				"uiTheme": "vs-dark",
+				"path": "./themes/mojo3.json"
+			},
+			{
+				"label": "Mojojo Orange",
+				"uiTheme": "vs-dark",
+				"path": "./themes/mojo4.json"
+			},
+			{
+				"label": "Mojojo Green",
+				"uiTheme": "vs-dark",
+				"path": "./themes/mojo5.json"
+			},
+			{
+				"label": "Mojojo Lemon",
+				"uiTheme": "vs-dark",
+				"path": "./themes/mojo6.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"color": "^1.0.3",
+		"js-yaml": "^3.8.2"
+	},
+	"dependencies": {
+		"flat": "^2.0.1"
+	},
+	"__metadata": {
+		"id": "8eae2676-0ac1-4eba-a153-472ea484e1cd",
+		"publisherDisplayName": "Christophe Eymard",
+		"publisherId": "904c3af2-1d90-47ee-b8f8-e7da5cb0a23d"
+	}
 }

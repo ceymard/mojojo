@@ -39,7 +39,7 @@
       }
     },
     {
-      "scope": "keyword.control, keyword.operator.expression, keyword.operator.new, keyword.other, storage.type, keyword.operator.logical.python, storage.modifier",
+      "scope": "keyword.control, keyword.operator.expression, keyword.operator.new, keyword.other, keyword.operator.logical.python, keyword.operator.postgres, storage.modifier, storage.type",
       "settings": {
         "foreground": "#FACF81",
         "background": "#B67907"
@@ -76,7 +76,7 @@
       }
     },
     {
-      "scope": "meta.type.annotation, entity.name.type, meta.return.type, meta.type.parameters, entity.other.inherited-class, support.type, markup.list beginning.punctuation",
+      "scope": "meta.type.annotation, entity.name.type, meta.return.type, meta.type.parameters, entity.other.inherited-class, support.type, storage.type.postgres, markup.list beginning.punctuation",
       "settings": {
         "foreground": "#FA81D4",
         "background": "#B6077F"
@@ -127,22 +127,22 @@
     {
       "scope": "meta.embedded string, punctuation.definition.string, string",
       "settings": {
-        "foreground": "#BC99E2",
-        "background": "#5D2A93"
+        "foreground": "#83FA81",
+        "background": "#0BB607"
       }
     },
     {
       "scope": "meta.link.inline.markdown, meta.link.inline.markdown punctuation.definition.string, meta.image.inline, meta.image.inline punctuation.definition.string",
       "settings": {
-        "foreground": "#E3D4F3",
-        "background": "#6F33B1"
+        "foreground": "#CBFDCA",
+        "background": "#0DDB09"
       }
     },
     {
       "scope": "string punctuation.definition.template-expression",
       "settings": {
-        "foreground": "#812DDD",
-        "background": "#401372"
+        "foreground": "#00FF00",
+        "background": "#038500"
       }
     },
     {

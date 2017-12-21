@@ -95,7 +95,7 @@ var BASE = c('#81d4fa').rotate(parseInt(process.argv[2] || 0))
 var OPPOSITE = BASE.rotate(180)
 var TYPES = BASE.rotate(-60)
 var BASE = BASE.rotate(20)
-var STRING = BASE.rotate(230).desaturate(0.4)
+var STRING = BASE.rotate(80)
 var CONSTANT = BASE.rotate(80)
 
 var COMMENT = BASE.darken(0.5).desaturate(0.7)
@@ -161,6 +161,7 @@ var colors = {
 
 /////////////////////////////////////////////////////////////////////
 
+// Comments
 S.from(COMMENT).italic().add(
   'comment',
   'punctuation.definition.comment',
@@ -168,14 +169,16 @@ S.from(COMMENT).italic().add(
   'string.quoted.docstring punctuation.definition.string'
 )
 
+// Keywords
 S.from(BASE).add(
   'keyword.control',
   'keyword.operator.expression',
   'keyword.operator.new',
   'keyword.other',
-  'storage.type',
   'keyword.operator.logical.python',
-  'storage.modifier'
+  'keyword.operator.postgres',
+  'storage.modifier',
+  'storage.type'
 )
 
 S.from(FG).add(
@@ -208,6 +211,7 @@ S.from(TYPES).add(
   'meta.type.parameters',
   'entity.other.inherited-class',
   'support.type',
+  'storage.type.postgres',
 
   // markdown
   'markup.list beginning.punctuation'
