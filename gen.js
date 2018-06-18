@@ -171,6 +171,11 @@ S.from(COMMENT).italic().add(
 
 // Keywords
 S.from(BASE).add(
+  'keyword.package.go',
+  'keyword.channel.go',
+  'keyword.for.go',
+  'keyword.import.go',
+  'keyword.function.go',
   'keyword.control',
   'keyword.operator.expression',
   'keyword.operator.new',
@@ -237,8 +242,6 @@ S.from(TYPES.darken(0.2)).add(
 )
 
 S.from(BASE).add(
-  'meta.definition entity.name.function',
-  'entity.name.function',
   'support.function',
   // markdown
   'markup.heading'
@@ -257,6 +260,12 @@ S.from(OPPOSITE).add(
   'entity.name.tag',
   'markup.inline punctuation',
   'markup.fenced_code punctuation'
+)
+
+S.from(BASE.rotate(30)).add(
+  'meta.definition entity.name.function',
+  'entity.name.function',
+  'meta.function-call.tsx support.function.dom.tsx'
 )
 
 

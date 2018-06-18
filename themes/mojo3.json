@@ -39,7 +39,7 @@
       }
     },
     {
-      "scope": "keyword.control, keyword.operator.expression, keyword.operator.new, keyword.other, keyword.operator.logical.python, keyword.operator.postgres, storage.modifier, storage.type",
+      "scope": "keyword.package.go, keyword.channel.go, keyword.for.go, keyword.import.go, keyword.function.go, keyword.control, keyword.operator.expression, keyword.operator.new, keyword.other, keyword.operator.logical.python, keyword.operator.postgres, storage.modifier, storage.type",
       "settings": {
         "foreground": "#FA81AC",
         "background": "#B60745"
@@ -97,7 +97,7 @@
       }
     },
     {
-      "scope": "meta.definition entity.name.function, entity.name.function, support.function, markup.heading",
+      "scope": "support.function, markup.heading",
       "settings": {
         "foreground": "#FA81AC",
         "background": "#B60745"
@@ -115,6 +115,13 @@
       "settings": {
         "foreground": "#81FAA7",
         "background": "#07B63E"
+      }
+    },
+    {
+      "scope": "meta.definition entity.name.function, entity.name.function, meta.function-call.tsx support.function.dom.tsx",
+      "settings": {
+        "foreground": "#FA9381",
+        "background": "#B62107"
       }
     },
     {
