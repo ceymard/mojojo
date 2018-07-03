@@ -171,17 +171,7 @@ S.from(COMMENT).italic().add(
 
 // Keywords
 S.from(BASE).add(
-  'keyword.package.go',
-  'keyword.channel.go',
-  'keyword.for.go',
-  'keyword.import.go',
-  'keyword.function.go',
-  'keyword.control',
-  'keyword.operator.expression',
-  'keyword.operator.new',
-  'keyword.other',
-  'keyword.operator.logical.python',
-  'keyword.operator.postgres',
+  'keyword',
   'storage.modifier',
   'storage.type'
 )

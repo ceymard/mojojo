@@ -39,7 +39,7 @@
       }
     },
     {
-      "scope": "keyword.package.go, keyword.channel.go, keyword.for.go, keyword.import.go, keyword.function.go, keyword.control, keyword.operator.expression, keyword.operator.new, keyword.other, keyword.operator.logical.python, keyword.operator.postgres, storage.modifier, storage.type",
+      "scope": "keyword, storage.modifier, storage.type",
       "settings": {
         "foreground": "#FA81AC",
         "background": "#B60745"
