@@ -134,22 +134,22 @@
     {
       "scope": "meta.embedded string, punctuation.definition.string, string",
       "settings": {
-        "foreground": "#83FA81",
-        "background": "#0BB607"
+        "foreground": "#A89FDC",
+        "background": "#40338B"
       }
     },
     {
       "scope": "meta.link.inline.markdown, meta.link.inline.markdown punctuation.definition.string, meta.image.inline, meta.image.inline punctuation.definition.string",
       "settings": {
-        "foreground": "#CBFDCA",
-        "background": "#0DDB09"
+        "foreground": "#DAD7F0",
+        "background": "#4D3DA6"
       }
     },
     {
       "scope": "string punctuation.definition.template-expression",
       "settings": {
-        "foreground": "#00FF00",
-        "background": "#038500"
+        "foreground": "#513BCE",
+        "background": "#261B6A"
       }
     },
     {

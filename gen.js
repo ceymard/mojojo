@@ -95,7 +95,7 @@ var BASE = c('#81d4fa').rotate(parseInt(process.argv[2] || 0))
 var OPPOSITE = BASE.rotate(180)
 var TYPES = BASE.rotate(-60)
 var BASE = BASE.rotate(20)
-var STRING = BASE.rotate(80)
+var STRING = BASE.rotate(-150).desaturate(0.5)
 var CONSTANT = BASE.rotate(80)
 
 var COMMENT = BASE.darken(0.5).desaturate(0.7)
