@@ -2,7 +2,7 @@
 
 const fs = require('fs')
 const y = require('js-yaml')
-const c = require('color')
+const c = require('chroma-js')
 const flat = require('flat')
 
 // var base = y.load(fs.readFileSync('mojo.yml', 'utf-8'))
@@ -35,7 +35,7 @@ class S {
   static from(color) {
     var res = new S()
     res.settings.foreground = color.hex()
-    res.settings.background = color.darken(0.5).hex()
+    // res.settings.background = color.darken(0.5).hex()
     S.scopes.push(res)
     return res
   }
@@ -77,46 +77,109 @@ class S {
 
 S.scopes = []
 
+class C {
+  constructor(col) {
+    this.c = col
+  }
+
+  rotate(amount) {
+    return new C(this.c.set('hcl.h', amount < 0 ? '' + amount : '+' + amount))
+  }
+
+  saturate(v = 1) {
+    return new C(this.c.saturate(v))
+  }
+
+  desaturate(v = 1) {
+    return new C(this.c.desaturate(v))
+  }
+
+  lum(amount) {
+    return new C(this.c.set('hcl.l', amount))
+  }
+
+  chr(amount) {
+    return new C(this.c.set('hcl.c', amount))
+  }
+
+  addchr(amount) {
+    return new C(this.c.set('hcl.c', amount + this.c.get('hcl.c')))
+  }
+
+  addlum(amount) {
+    return new C(this.c.set('hcl.l', amount + this.c.get('hcl.l')))
+  }
+
+  hex() {
+    return this.c.hex()
+  }
+}
+
+
+class Color {
+  constructor(h, c, l) {
+    this.h = h
+    this.c = c
+    this.l = l
+  }
+
+  get clone() {
+    return new Color(this.h, this.c, this.l)
+  }
+
+  get chroma() {
+    return c.hcl(this.h, this.c, this.l)
+  }
+
+  get hex() {
+    return this.chroma.hex()
+  }
+}
+
+
 /////////////////////////////////////////////////
 
 var NAME = 'My Mojo'
 
-var FG = c('#eeeeee')
+var FG = new C(c('#eeeeee'))
+var _ = c.hcl(240, 90, 60)
 
 // Base color
 
 // blueish
 // var BASE = c('#68c4ff').saturate(0.2).lighten(0.15)
-var BASE = c('#81d4fa').rotate(parseInt(process.argv[2] || 0))
+var BASE_LUM = 60
+var BASE = new C(c(280, 80, 80, 'hcl')).rotate(parseInt(process.argv[2] || 0))
+
 
 // var FN = c('#80defa')
 // var FN = c('#80cbc4')
 
-var OPPOSITE = BASE.rotate(180)
+var OPPOSITE = BASE.rotate(-180)
 var TYPES = BASE.rotate(-60)
 var BASE = BASE.rotate(20)
-var STRING = BASE.rotate(-150).desaturate(0.5)
+var STRING = BASE.rotate(120)
 var CONSTANT = BASE.rotate(80)
 
-var COMMENT = BASE.darken(0.5).desaturate(0.7)
-var BG = BASE.darken(0.9).desaturate(0.9)
+var COMMENT = BASE.lum(40).desaturate(2)
+var BG = BASE.lum(5).desaturate(3)
 
 
 /////////////////////////////////////////////////////////////////////
 
-const BORDER = BG.lighten(0.5)
+const BORDER = BG.addlum(-30)
 
 var colors = {
   foreground: FG,
-  'widget.shadow': BG.lighten(0.6),
+  'widget.shadow': BG.lum(5),
   activityBar: {
     background: BG,
-    foreground: FG.darken(0.5),
+    foreground: FG.lum(BASE_LUM),
     border: BORDER
   },
   activityBarBadge: {
-    background: BASE.darken(0.2),
-    foreground: BASE.darken(0.6)
+    background: BASE.lum(50),
+    foreground: BASE.lum(40)
   },
   sideBar: {
     background: BG,
@@ -124,7 +187,7 @@ var colors = {
     border: BORDER
   },
   sideBarSectionHeader: {
-    background: BG.lighten(0.5),
+    background: BASE.lum(5),
     foreground: FG
   },
   editorGroupHeader: {
@@ -132,28 +195,28 @@ var colors = {
   },
   tab: {
     inactiveBackground: BG,
-    inactiveForeground: FG.darken(0.5),
-    activeBackground: BG.lighten(1),
+    inactiveForeground: FG.lum(40),
+    activeBackground: BG,
     activeForeground: FG,
     border: BORDER
   },
   editor: {
     foreground: FG,
     background: BG,
-    lineHighlightBackground: BASE.darken(0.85),
-    selection: BASE.darken(0.6),
-    selectionBorder: BASE.darken(0.8),
+    lineHighlightBackground: BASE.lum(1),
+    selection: BASE.lum(15),
+    selectionBorder: BASE.lum(23),
   },
   editorBracketMatch: {
-    background: BASE.darken(0.5),
-    border: BASE.darken(0.55)
+    background: BASE.lum(20),
+    border: BASE.lum(25)
   },
   statusBar: {
-    background: BASE.darken(0.6)
+    background: BASE.lum(40)
   },
 
   // VSCode
-  'editorIndentGuide.background': BG.lighten(0.4)
+  'editorIndentGuide.background': BG.lum(5)
 
   // tagsForeground:
 }
@@ -183,19 +246,19 @@ S.from(FG).add(
 )
 
 
-S.from(BASE.lighten(0.15)).add(
+S.from(BASE.addlum(5)).add(
   'meta.objectliteral punctuation.definition',
   'meta.objectliteral meta.object-literal.key',
   'meta.class variable.object.property'
 )
 
 // markdown
-S.from(BASE.lighten(0.15)).bold().add(
+S.from(BASE.addlum(5)).bold().add(
   'markup.bold'
 )
 
 // markdown
-S.from(BASE.lighten(0.15)).italic().add(
+S.from(BASE.addlum(5)).italic().add(
   'markup.italic'
 )
 
@@ -212,7 +275,7 @@ S.from(TYPES).add(
   'markup.list beginning.punctuation'
 )
 
-S.from(TYPES.lighten(0.2)).add(
+S.from(TYPES.addlum(5)).add(
   'meta.indexer.declaration variable.parameter',
   'meta.object.type punctuation.definition',
   'meta.type.annotation variable.object.property',
@@ -227,7 +290,7 @@ S.from(TYPES.lighten(0.2)).add(
   'markup.quote'
 )
 
-S.from(TYPES.darken(0.2)).add(
+S.from(TYPES.addlum(-5)).add(
   'entity.name.type.class'
 )
 
@@ -237,7 +300,7 @@ S.from(BASE).add(
   'markup.heading'
 )
 
-S.from(BASE.lighten(0.15)).add(
+S.from(BASE.addlum(5)).add(
   'meta.definition.variable',
   'meta.parameters punctuation',
   'meta.parameters punctuation.definition',
@@ -259,7 +322,7 @@ S.from(BASE.rotate(30)).add(
 )
 
 
-S.from(OPPOSITE.lighten(0.1)).add(
+S.from(OPPOSITE.addlum(5)).add(
   'entity.other.attribute-name',
   'meta.tag punctuation.section',
   'meta.tag punctuation.definition',
@@ -275,18 +338,18 @@ S.from(STRING).add(
   'string'
 )
 
-S.from(STRING.lighten(0.2)).add(
+S.from(STRING.addlum(5)).add(
   'meta.link.inline.markdown',
   'meta.link.inline.markdown punctuation.definition.string',
   'meta.image.inline',
   'meta.image.inline punctuation.definition.string'
 )
 
-S.from(STRING.darken(0.3).saturate(0.3)).add(
+S.from(STRING.addlum(-5)).add(
   'string punctuation.definition.template-expression'
 )
 
-S.from(CONSTANT.lighten(0.15)).add(
+S.from(CONSTANT.addlum(5)).add(
   'constant',
   'variable.language'
 )

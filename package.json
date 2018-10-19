@@ -48,7 +48,7 @@
 		]
 	},
 	"devDependencies": {
-		"color": "^1.0.3",
+		"chroma-js": "^1.4.0",
 		"js-yaml": "^3.8.2"
 	},
 	"dependencies": {
