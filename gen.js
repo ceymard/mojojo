@@ -149,7 +149,7 @@ var _ = c.hcl(240, 90, 60)
 // blueish
 // var BASE = c('#68c4ff').saturate(0.2).lighten(0.15)
 var BASE_LUM = 60
-var BASE = new C(c(280, 80, 80, 'hcl')).rotate(parseInt(process.argv[2] || 0))
+var BASE = new C(c(270, 80, 80, 'hcl')).rotate(parseInt(process.argv[2] || 0))
 
 
 // var FN = c('#80defa')
@@ -157,9 +157,8 @@ var BASE = new C(c(280, 80, 80, 'hcl')).rotate(parseInt(process.argv[2] || 0))
 
 var OPPOSITE = BASE.rotate(-180)
 var TYPES = BASE.rotate(-60)
-var BASE = BASE.rotate(20)
-var STRING = BASE.rotate(120)
-var CONSTANT = BASE.rotate(80)
+var STRING = BASE.rotate(60)
+var CONSTANT = BASE.rotate(120)
 
 var COMMENT = BASE.lum(40).desaturate(2)
 var BG = BASE.lum(5).desaturate(3)
@@ -246,19 +245,19 @@ S.from(FG).add(
 )
 
 
-S.from(BASE.addlum(5)).add(
+S.from(BASE.addlum(10)).add(
   'meta.objectliteral punctuation.definition',
   'meta.objectliteral meta.object-literal.key',
   'meta.class variable.object.property'
 )
 
 // markdown
-S.from(BASE.addlum(5)).bold().add(
+S.from(BASE.addlum(10)).bold().add(
   'markup.bold'
 )
 
 // markdown
-S.from(BASE.addlum(5)).italic().add(
+S.from(BASE.addlum(10)).italic().add(
   'markup.italic'
 )
 
@@ -275,7 +274,7 @@ S.from(TYPES).add(
   'markup.list beginning.punctuation'
 )
 
-S.from(TYPES.addlum(5)).add(
+S.from(TYPES.addlum(10)).add(
   'meta.indexer.declaration variable.parameter',
   'meta.object.type punctuation.definition',
   'meta.type.annotation variable.object.property',
