@@ -188,7 +188,7 @@ function make_theme(color) {
   var BG = BASE.lum(5).chr(1)
 
   var OPPOSITE = BASE.rotate(-180)
-  var TYPES = BASE.rotate(-80)
+  var TYPES = BASE.rotate(-80).lum(60).chr(40)
   var FUNCTIONS = BASE.rotate(30).chr(40)
   var STRING = BASE.rotate(60)
   var CONSTANT = BASE.rotate(120)
