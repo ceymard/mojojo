@@ -1,62 +1,93 @@
 {
-	"name": "mojojo",
-	"displayName": "Mojojo",
-	"description": "My custom theme, mainly targeted for a nice Typescript/TSX experience.",
-	"version": "0.2.0",
-	"publisher": "ceymard",
-	"engines": {
-		"vscode": "^1.0.0"
-	},
-	"categories": [
-		"Themes"
-	],
-	"scripts": {
-		"build": "node gen.js > ./themes/mojo.json && node gen.js 60 > ./themes/mojo2.json && node gen.js 120 > ./themes/mojo3.json && node gen.js 180 > ./themes/mojo4.json && node gen.js -60 > ./themes/mojo5.json && node gen.js -120 > ./themes/mojo6.json"
-	},
-	"contributes": {
-		"themes": [
-			{
-				"label": "Mojojo Blue",
-				"uiTheme": "vs-dark",
-				"path": "./themes/mojo.json"
-			},
-			{
-				"label": "Mojojo Purple",
-				"uiTheme": "vs-dark",
-				"path": "./themes/mojo2.json"
-			},
-			{
-				"label": "Mojojo Red",
-				"uiTheme": "vs-dark",
-				"path": "./themes/mojo3.json"
-			},
-			{
-				"label": "Mojojo Orange",
-				"uiTheme": "vs-dark",
-				"path": "./themes/mojo4.json"
-			},
-			{
-				"label": "Mojojo Green",
-				"uiTheme": "vs-dark",
-				"path": "./themes/mojo5.json"
-			},
-			{
-				"label": "Mojojo Lemon",
-				"uiTheme": "vs-dark",
-				"path": "./themes/mojo6.json"
-			}
-		]
-	},
-	"devDependencies": {
-		"chroma-js": "^1.4.0",
-		"js-yaml": "^3.8.2"
-	},
-	"dependencies": {
-		"flat": "^2.0.1"
-	},
-	"__metadata": {
-		"id": "8eae2676-0ac1-4eba-a153-472ea484e1cd",
-		"publisherDisplayName": "Christophe Eymard",
-		"publisherId": "904c3af2-1d90-47ee-b8f8-e7da5cb0a23d"
-	}
+  "name": "mojojo",
+  "displayName": "Mojojo",
+  "description": "My custom theme, mainly targeted for a nice Typescript/TSX experience.",
+  "version": "0.2.0",
+  "publisher": "ceymard",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "scripts": {
+    "build": "node gen.js > ./themes/mojo.json && node gen.js 60 > ./themes/mojo2.json && node gen.js 120 > ./themes/mojo3.json && node gen.js 180 > ./themes/mojo4.json && node gen.js -60 > ./themes/mojo5.json && node gen.js -120 > ./themes/mojo6.json"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Mojojo Tickle Me Pink",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ff96c9.json"
+      },
+      {
+        "label": "Mojojo Vivid Tangerine",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ff9c91.json"
+      },
+      {
+        "label": "Mojojo Tan",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ffaf66.json"
+      },
+      {
+        "label": "Mojojo Dandelion",
+        "uiTheme": "vs-dark",
+        "path": "./themes/e6c352.json"
+      },
+      {
+        "label": "Mojojo Yellow Green",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aed461.json"
+      },
+      {
+        "label": "Mojojo Fern",
+        "uiTheme": "vs-dark",
+        "path": "./themes/64de8c.json"
+      },
+      {
+        "label": "Mojojo Caribbean Green",
+        "uiTheme": "vs-dark",
+        "path": "./themes/00e2c5.json"
+      },
+      {
+        "label": "Mojojo Turquoise Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/00e1fd.json"
+      },
+      {
+        "label": "Mojojo Sky Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/00dbff.json"
+      },
+      {
+        "label": "Mojojo Cerulean",
+        "uiTheme": "vs-dark",
+        "path": "./themes/57ccff.json"
+      },
+      {
+        "label": "Mojojo Wisteria",
+        "uiTheme": "vs-dark",
+        "path": "./themes/c9b8ff.json"
+      },
+      {
+        "label": "Mojojo Shocking Pink",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ffa2ff.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "chroma-js": "^1.4.0",
+    "color-namer": "^1.3.0",
+    "js-yaml": "^3.8.2"
+  },
+  "dependencies": {
+    "flat": "^2.0.1"
+  },
+  "__metadata": {
+    "id": "8eae2676-0ac1-4eba-a153-472ea484e1cd",
+    "publisherDisplayName": "Christophe Eymard",
+    "publisherId": "904c3af2-1d90-47ee-b8f8-e7da5cb0a23d"
+  }
 }

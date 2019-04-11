@@ -1,0 +1,1454 @@
+{
+  "type": "dark",
+  "colors": {
+    "foreground": "#ffffff",
+    "widget.shadow": "#111112",
+    "activityBar.background": "#3d3948",
+    "activityBar.foreground": "#ffffff",
+    "activityBar.border": "#312f36",
+    "activityBarBadge.background": "#b2cb83",
+    "activityBarBadge.foreground": "#ffffff",
+    "sideBar.background": "#111112",
+    "sideBar.foreground": "#ffffff",
+    "sideBar.border": "#312f36",
+    "sideBarSectionHeader.background": "#3d3948",
+    "sideBarSectionHeader.foreground": "#ffffff",
+    "editorGroupHeader.tabsBackground": "#111112",
+    "tab.inactiveBackground": "#111112",
+    "tab.inactiveForeground": "#5e5e5e",
+    "tab.activeBackground": "#111112",
+    "tab.activeForeground": "#ffffff",
+    "tab.border": "#312f36",
+    "editor.foreground": "#ffffff",
+    "editor.background": "#111112",
+    "editor.lineHighlightBackground": "#050034",
+    "editor.selection": "#231d55",
+    "editor.selectionBorder": "#372e68",
+    "editorBracketMatch.background": "#302861",
+    "editorBracketMatch.border": "#3c336d",
+    "statusBar.background": "#3d3948",
+    "statusBar.border": "#312f36",
+    "editorIndentGuide.background": "#111112"
+  },
+  "tokenColors": [
+    {
+      "scope": "comment, punctuation.definition.comment, string.quoted.docstring, string.quoted.docstring punctuation.definition.string",
+      "settings": {
+        "foreground": "#6d5962",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "keyword, storage.modifier, storage.type",
+      "settings": {
+        "foreground": "#ff96c9"
+      }
+    },
+    {
+      "scope": "string variable, string punctuation.accessor, string keyword",
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "scope": "meta.objectliteral punctuation.definition, meta.objectliteral meta.object-literal.key, meta.class variable.object.property",
+      "settings": {
+        "foreground": "#ffb2e5"
+      }
+    },
+    {
+      "scope": "markup.bold",
+      "settings": {
+        "foreground": "#ffb2e5",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "markup.italic",
+      "settings": {
+        "foreground": "#ffb2e5",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "meta.type.annotation, entity.name.type, meta.return.type, meta.type.parameters, entity.other.inherited-class, support.type, storage.type.postgres, markup.list beginning.punctuation",
+      "settings": {
+        "foreground": "#6fbcff"
+      }
+    },
+    {
+      "scope": "meta.indexer.declaration variable.parameter, meta.object.type punctuation.definition, meta.type.annotation variable.object.property, punctuation.definition.typeparameters, meta.type.annotation keyword, meta.type.annotation meta.brace, meta.type.annotation punctuation, meta.type.parameters punctuation, meta.type.parameters meta.brace, markup.quote",
+      "settings": {
+        "foreground": "#8dd7ff"
+      }
+    },
+    {
+      "scope": "source.ts source.pgsql keyword, source.ts keyword.other.DML.sql, source.ts keyword.other.create.sql, source.ts keyword.other.order.sql",
+      "settings": {
+        "foreground": "#49c9b2"
+      }
+    },
+    {
+      "scope": "source.ts keyword.other.DDL.create.II.sql, source.ts keyword.other.sql, source.ts keyword.other.alias.sql, source.ts support.function.expression.sql, source.ts constant.other.database-name.sql",
+      "settings": {
+        "foreground": "#a0bbb4"
+      }
+    },
+    {
+      "scope": "source.ts constant.other.table-name.sql",
+      "settings": {
+        "foreground": "#78f4db"
+      }
+    },
+    {
+      "scope": "entity.name.type.class",
+      "settings": {
+        "foreground": "#5faef0"
+      }
+    },
+    {
+      "scope": "support.function, markup.heading",
+      "settings": {
+        "foreground": "#ff96c9"
+      }
+    },
+    {
+      "scope": "meta.definition.variable, meta.parameters punctuation, meta.parameters punctuation.definition, variable.parameter, markup.heading punctuation",
+      "settings": {
+        "foreground": "#ffa4d7"
+      }
+    },
+    {
+      "scope": "entity.name.tag, markup.inline punctuation, markup.fenced_code punctuation",
+      "settings": {
+        "foreground": "#46cca5"
+      }
+    },
+    {
+      "scope": "meta.definition entity.name.function, entity.name.function, support.function",
+      "settings": {
+        "foreground": "#fb989f"
+      }
+    },
+    {
+      "scope": "entity.other.attribute-name, meta.tag punctuation.section, meta.tag punctuation.definition, meta.tag keyword.operator.assignment, markup.inline, markup.fenced_code",
+      "settings": {
+        "foreground": "#56dab3"
+      }
+    },
+    {
+      "scope": "meta.embedded string, punctuation.definition.string, string",
+      "settings": {
+        "foreground": "#fda078"
+      }
+    },
+    {
+      "scope": "meta.link.inline.markdown, meta.link.inline.markdown punctuation.definition.string, meta.image.inline, meta.image.inline punctuation.definition.string",
+      "settings": {
+        "foreground": "#ffad85"
+      }
+    },
+    {
+      "scope": "string punctuation.definition.template-expression",
+      "settings": {
+        "foreground": "#ee926b"
+      }
+    },
+    {
+      "scope": "constant, variable.language",
+      "settings": {
+        "foreground": "#c5cb71"
+      }
+    },
+    {
+      "scope": "comment, punctuation.definition.comment, string.quoted.docstring, string.quoted.docstring punctuation.definition.string",
+      "settings": {
+        "foreground": "#6f5956",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "keyword, storage.modifier, storage.type",
+      "settings": {
+        "foreground": "#ff9c91"
+      }
+    },
+    {
+      "scope": "string variable, string punctuation.accessor, string keyword",
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "scope": "meta.objectliteral punctuation.definition, meta.objectliteral meta.object-literal.key, meta.class variable.object.property",
+      "settings": {
+        "foreground": "#ffb7ac"
+      }
+    },
+    {
+      "scope": "markup.bold",
+      "settings": {
+        "foreground": "#ffb7ac",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "markup.italic",
+      "settings": {
+        "foreground": "#ffb7ac",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "meta.type.annotation, entity.name.type, meta.return.type, meta.type.parameters, entity.other.inherited-class, support.type, storage.type.postgres, markup.list beginning.punctuation",
+      "settings": {
+        "foreground": "#cda8f1"
+      }
+    },
+    {
+      "scope": "meta.indexer.declaration variable.parameter, meta.object.type punctuation.definition, meta.type.annotation variable.object.property, punctuation.definition.typeparameters, meta.type.annotation keyword, meta.type.annotation meta.brace, meta.type.annotation punctuation, meta.type.parameters punctuation, meta.type.parameters meta.brace, markup.quote",
+      "settings": {
+        "foreground": "#e9c3ff"
+      }
+    },
+    {
+      "scope": "source.ts source.pgsql keyword, source.ts keyword.other.DML.sql, source.ts keyword.other.create.sql, source.ts keyword.other.order.sql",
+      "settings": {
+        "foreground": "#00c8ec"
+      }
+    },
+    {
+      "scope": "source.ts keyword.other.DDL.create.II.sql, source.ts keyword.other.sql, source.ts keyword.other.alias.sql, source.ts support.function.expression.sql, source.ts constant.other.database-name.sql",
+      "settings": {
+        "foreground": "#9fbcc5"
+      }
+    },
+    {
+      "scope": "source.ts constant.other.table-name.sql",
+      "settings": {
+        "foreground": "#5df2ff"
+      }
+    },
+    {
+      "scope": "entity.name.type.class",
+      "settings": {
+        "foreground": "#bf9ae2"
+      }
+    },
+    {
+      "scope": "support.function, markup.heading",
+      "settings": {
+        "foreground": "#ff9c91"
+      }
+    },
+    {
+      "scope": "meta.definition.variable, meta.parameters punctuation, meta.parameters punctuation.definition, variable.parameter, markup.heading punctuation",
+      "settings": {
+        "foreground": "#ffaa9f"
+      }
+    },
+    {
+      "scope": "entity.name.tag, markup.inline punctuation, markup.fenced_code punctuation",
+      "settings": {
+        "foreground": "#00cadd"
+      }
+    },
+    {
+      "scope": "meta.definition entity.name.function, entity.name.function, support.function",
+      "settings": {
+        "foreground": "#eca877"
+      }
+    },
+    {
+      "scope": "entity.other.attribute-name, meta.tag punctuation.section, meta.tag punctuation.definition, meta.tag keyword.operator.assignment, markup.inline, markup.fenced_code",
+      "settings": {
+        "foreground": "#2fd8eb"
+      }
+    },
+    {
+      "scope": "meta.embedded string, punctuation.definition.string, string",
+      "settings": {
+        "foreground": "#ceb569"
+      }
+    },
+    {
+      "scope": "meta.link.inline.markdown, meta.link.inline.markdown punctuation.definition.string, meta.image.inline, meta.image.inline punctuation.definition.string",
+      "settings": {
+        "foreground": "#ddc276"
+      }
+    },
+    {
+      "scope": "string punctuation.definition.template-expression",
+      "settings": {
+        "foreground": "#c0a75d"
+      }
+    },
+    {
+      "scope": "constant, variable.language",
+      "settings": {
+        "foreground": "#86d69d"
+      }
+    },
+    {
+      "scope": "comment, punctuation.definition.comment, string.quoted.docstring, string.quoted.docstring punctuation.definition.string",
+      "settings": {
+        "foreground": "#6b5b50",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "keyword, storage.modifier, storage.type",
+      "settings": {
+        "foreground": "#ffaf66"
+      }
+    },
+    {
+      "scope": "string variable, string punctuation.accessor, string keyword",
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "scope": "meta.objectliteral punctuation.definition, meta.objectliteral meta.object-literal.key, meta.class variable.object.property",
+      "settings": {
+        "foreground": "#ffca80"
+      }
+    },
+    {
+      "scope": "markup.bold",
+      "settings": {
+        "foreground": "#ffca80",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "markup.italic",
+      "settings": {
+        "foreground": "#ffca80",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "meta.type.annotation, entity.name.type, meta.return.type, meta.type.parameters, entity.other.inherited-class, support.type, storage.type.postgres, markup.list beginning.punctuation",
+      "settings": {
+        "foreground": "#ff9ada"
+      }
+    },
+    {
+      "scope": "meta.indexer.declaration variable.parameter, meta.object.type punctuation.definition, meta.type.annotation variable.object.property, punctuation.definition.typeparameters, meta.type.annotation keyword, meta.type.annotation meta.brace, meta.type.annotation punctuation, meta.type.parameters punctuation, meta.type.parameters meta.brace, markup.quote",
+      "settings": {
+        "foreground": "#ffb5f7"
+      }
+    },
+    {
+      "scope": "source.ts source.pgsql keyword, source.ts keyword.other.DML.sql, source.ts keyword.other.create.sql, source.ts keyword.other.order.sql",
+      "settings": {
+        "foreground": "#30c6ff"
+      }
+    },
+    {
+      "scope": "source.ts keyword.other.DDL.create.II.sql, source.ts keyword.other.sql, source.ts keyword.other.alias.sql, source.ts support.function.expression.sql, source.ts constant.other.database-name.sql",
+      "settings": {
+        "foreground": "#a0bcce"
+      }
+    },
+    {
+      "scope": "source.ts constant.other.table-name.sql",
+      "settings": {
+        "foreground": "#6ef0ff"
+      }
+    },
+    {
+      "scope": "entity.name.type.class",
+      "settings": {
+        "foreground": "#f08ccc"
+      }
+    },
+    {
+      "scope": "support.function, markup.heading",
+      "settings": {
+        "foreground": "#ffaf66"
+      }
+    },
+    {
+      "scope": "meta.definition.variable, meta.parameters punctuation, meta.parameters punctuation.definition, variable.parameter, markup.heading punctuation",
+      "settings": {
+        "foreground": "#ffbc73"
+      }
+    },
+    {
+      "scope": "entity.name.tag, markup.inline punctuation, markup.fenced_code punctuation",
+      "settings": {
+        "foreground": "#00d0ff"
+      }
+    },
+    {
+      "scope": "meta.definition entity.name.function, entity.name.function, support.function",
+      "settings": {
+        "foreground": "#d2c076"
+      }
+    },
+    {
+      "scope": "entity.other.attribute-name, meta.tag punctuation.section, meta.tag punctuation.definition, meta.tag keyword.operator.assignment, markup.inline, markup.fenced_code",
+      "settings": {
+        "foreground": "#33deff"
+      }
+    },
+    {
+      "scope": "meta.embedded string, punctuation.definition.string, string",
+      "settings": {
+        "foreground": "#a1ce6c"
+      }
+    },
+    {
+      "scope": "meta.link.inline.markdown, meta.link.inline.markdown punctuation.definition.string, meta.image.inline, meta.image.inline punctuation.definition.string",
+      "settings": {
+        "foreground": "#afdc79"
+      }
+    },
+    {
+      "scope": "string punctuation.definition.template-expression",
+      "settings": {
+        "foreground": "#93c05f"
+      }
+    },
+    {
+      "scope": "constant, variable.language",
+      "settings": {
+        "foreground": "#2fe8d6"
+      }
+    },
+    {
+      "scope": "comment, punctuation.definition.comment, string.quoted.docstring, string.quoted.docstring punctuation.definition.string",
+      "settings": {
+        "foreground": "#655e4e",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "keyword, storage.modifier, storage.type",
+      "settings": {
+        "foreground": "#e6c352"
+      }
+    },
+    {
+      "scope": "string variable, string punctuation.accessor, string keyword",
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "scope": "meta.objectliteral punctuation.definition, meta.objectliteral meta.object-literal.key, meta.class variable.object.property",
+      "settings": {
+        "foreground": "#ffdf6c"
+      }
+    },
+    {
+      "scope": "markup.bold",
+      "settings": {
+        "foreground": "#ffdf6c",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "markup.italic",
+      "settings": {
+        "foreground": "#ffdf6c",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "meta.type.annotation, entity.name.type, meta.return.type, meta.type.parameters, entity.other.inherited-class, support.type, storage.type.postgres, markup.list beginning.punctuation",
+      "settings": {
+        "foreground": "#ff96b6"
+      }
+    },
+    {
+      "scope": "meta.indexer.declaration variable.parameter, meta.object.type punctuation.definition, meta.type.annotation variable.object.property, punctuation.definition.typeparameters, meta.type.annotation keyword, meta.type.annotation meta.brace, meta.type.annotation punctuation, meta.type.parameters punctuation, meta.type.parameters meta.brace, markup.quote",
+      "settings": {
+        "foreground": "#ffb2d1"
+      }
+    },
+    {
+      "scope": "source.ts source.pgsql keyword, source.ts keyword.other.DML.sql, source.ts keyword.other.create.sql, source.ts keyword.other.order.sql",
+      "settings": {
+        "foreground": "#87b7ff"
+      }
+    },
+    {
+      "scope": "source.ts keyword.other.DDL.create.II.sql, source.ts keyword.other.sql, source.ts keyword.other.alias.sql, source.ts support.function.expression.sql, source.ts constant.other.database-name.sql",
+      "settings": {
+        "foreground": "#acb5c8"
+      }
+    },
+    {
+      "scope": "source.ts constant.other.table-name.sql",
+      "settings": {
+        "foreground": "#b2e0ff"
+      }
+    },
+    {
+      "scope": "entity.name.type.class",
+      "settings": {
+        "foreground": "#f088a8"
+      }
+    },
+    {
+      "scope": "support.function, markup.heading",
+      "settings": {
+        "foreground": "#e6c352"
+      }
+    },
+    {
+      "scope": "meta.definition.variable, meta.parameters punctuation, meta.parameters punctuation.definition, variable.parameter, markup.heading punctuation",
+      "settings": {
+        "foreground": "#f6d15f"
+      }
+    },
+    {
+      "scope": "entity.name.tag, markup.inline punctuation, markup.fenced_code punctuation",
+      "settings": {
+        "foreground": "#57ccff"
+      }
+    },
+    {
+      "scope": "meta.definition entity.name.function, entity.name.function, support.function",
+      "settings": {
+        "foreground": "#b8cf85"
+      }
+    },
+    {
+      "scope": "entity.other.attribute-name, meta.tag punctuation.section, meta.tag punctuation.definition, meta.tag keyword.operator.assignment, markup.inline, markup.fenced_code",
+      "settings": {
+        "foreground": "#69daff"
+      }
+    },
+    {
+      "scope": "meta.embedded string, punctuation.definition.string, string",
+      "settings": {
+        "foreground": "#64de8c"
+      }
+    },
+    {
+      "scope": "meta.link.inline.markdown, meta.link.inline.markdown punctuation.definition.string, meta.image.inline, meta.image.inline punctuation.definition.string",
+      "settings": {
+        "foreground": "#73ec99"
+      }
+    },
+    {
+      "scope": "string punctuation.definition.template-expression",
+      "settings": {
+        "foreground": "#55cf7f"
+      }
+    },
+    {
+      "scope": "constant, variable.language",
+      "settings": {
+        "foreground": "#33f0ff"
+      }
+    },
+    {
+      "scope": "comment, punctuation.definition.comment, string.quoted.docstring, string.quoted.docstring punctuation.definition.string",
+      "settings": {
+        "foreground": "#5b6151",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "keyword, storage.modifier, storage.type",
+      "settings": {
+        "foreground": "#aed461"
+      }
+    },
+    {
+      "scope": "string variable, string punctuation.accessor, string keyword",
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "scope": "meta.objectliteral punctuation.definition, meta.objectliteral meta.object-literal.key, meta.class variable.object.property",
+      "settings": {
+        "foreground": "#caf07b"
+      }
+    },
+    {
+      "scope": "markup.bold",
+      "settings": {
+        "foreground": "#caf07b",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "markup.italic",
+      "settings": {
+        "foreground": "#caf07b",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "meta.type.annotation, entity.name.type, meta.return.type, meta.type.parameters, entity.other.inherited-class, support.type, storage.type.postgres, markup.list beginning.punctuation",
+      "settings": {
+        "foreground": "#ffa181"
+      }
+    },
+    {
+      "scope": "meta.indexer.declaration variable.parameter, meta.object.type punctuation.definition, meta.type.annotation variable.object.property, punctuation.definition.typeparameters, meta.type.annotation keyword, meta.type.annotation meta.brace, meta.type.annotation punctuation, meta.type.parameters punctuation, meta.type.parameters meta.brace, markup.quote",
+      "settings": {
+        "foreground": "#ffbd9b"
+      }
+    },
+    {
+      "scope": "source.ts source.pgsql keyword, source.ts keyword.other.DML.sql, source.ts keyword.other.create.sql, source.ts keyword.other.order.sql",
+      "settings": {
+        "foreground": "#dfa4ee"
+      }
+    },
+    {
+      "scope": "source.ts keyword.other.DDL.create.II.sql, source.ts keyword.other.sql, source.ts keyword.other.alias.sql, source.ts support.function.expression.sql, source.ts constant.other.database-name.sql",
+      "settings": {
+        "foreground": "#c6b3ca"
+      }
+    },
+    {
+      "scope": "source.ts constant.other.table-name.sql",
+      "settings": {
+        "foreground": "#ffceff"
+      }
+    },
+    {
+      "scope": "entity.name.type.class",
+      "settings": {
+        "foreground": "#f09474"
+      }
+    },
+    {
+      "scope": "support.function, markup.heading",
+      "settings": {
+        "foreground": "#aed461"
+      }
+    },
+    {
+      "scope": "meta.definition.variable, meta.parameters punctuation, meta.parameters punctuation.definition, variable.parameter, markup.heading punctuation",
+      "settings": {
+        "foreground": "#bce26e"
+      }
+    },
+    {
+      "scope": "entity.name.tag, markup.inline punctuation, markup.fenced_code punctuation",
+      "settings": {
+        "foreground": "#c9b8ff"
+      }
+    },
+    {
+      "scope": "meta.definition entity.name.function, entity.name.function, support.function",
+      "settings": {
+        "foreground": "#8cd7a0"
+      }
+    },
+    {
+      "scope": "entity.other.attribute-name, meta.tag punctuation.section, meta.tag punctuation.definition, meta.tag keyword.operator.assignment, markup.inline, markup.fenced_code",
+      "settings": {
+        "foreground": "#d7c5ff"
+      }
+    },
+    {
+      "scope": "meta.embedded string, punctuation.definition.string, string",
+      "settings": {
+        "foreground": "#00e2c5"
+      }
+    },
+    {
+      "scope": "meta.link.inline.markdown, meta.link.inline.markdown punctuation.definition.string, meta.image.inline, meta.image.inline punctuation.definition.string",
+      "settings": {
+        "foreground": "#30f1d2"
+      }
+    },
+    {
+      "scope": "string punctuation.definition.template-expression",
+      "settings": {
+        "foreground": "#00d4b7"
+      }
+    },
+    {
+      "scope": "constant, variable.language",
+      "settings": {
+        "foreground": "#33e9ff"
+      }
+    },
+    {
+      "scope": "comment, punctuation.definition.comment, string.quoted.docstring, string.quoted.docstring punctuation.definition.string",
+      "settings": {
+        "foreground": "#566457",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "keyword, storage.modifier, storage.type",
+      "settings": {
+        "foreground": "#64de8c"
+      }
+    },
+    {
+      "scope": "string variable, string punctuation.accessor, string keyword",
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "scope": "meta.objectliteral punctuation.definition, meta.objectliteral meta.object-literal.key, meta.class variable.object.property",
+      "settings": {
+        "foreground": "#81fba7"
+      }
+    },
+    {
+      "scope": "markup.bold",
+      "settings": {
+        "foreground": "#81fba7",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "markup.italic",
+      "settings": {
+        "foreground": "#81fba7",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "meta.type.annotation, entity.name.type, meta.return.type, meta.type.parameters, entity.other.inherited-class, support.type, storage.type.postgres, markup.list beginning.punctuation",
+      "settings": {
+        "foreground": "#ffb65c"
+      }
+    },
+    {
+      "scope": "meta.indexer.declaration variable.parameter, meta.object.type punctuation.definition, meta.type.annotation variable.object.property, punctuation.definition.typeparameters, meta.type.annotation keyword, meta.type.annotation meta.brace, meta.type.annotation punctuation, meta.type.parameters punctuation, meta.type.parameters meta.brace, markup.quote",
+      "settings": {
+        "foreground": "#ffd176"
+      }
+    },
+    {
+      "scope": "source.ts source.pgsql keyword, source.ts keyword.other.DML.sql, source.ts keyword.other.create.sql, source.ts keyword.other.order.sql",
+      "settings": {
+        "foreground": "#ff99de"
+      }
+    },
+    {
+      "scope": "source.ts keyword.other.DDL.create.II.sql, source.ts keyword.other.sql, source.ts keyword.other.alias.sql, source.ts support.function.expression.sql, source.ts constant.other.database-name.sql",
+      "settings": {
+        "foreground": "#d8afc9"
+      }
+    },
+    {
+      "scope": "source.ts constant.other.table-name.sql",
+      "settings": {
+        "foreground": "#ffc3ff"
+      }
+    },
+    {
+      "scope": "entity.name.type.class",
+      "settings": {
+        "foreground": "#f0a84f"
+      }
+    },
+    {
+      "scope": "support.function, markup.heading",
+      "settings": {
+        "foreground": "#64de8c"
+      }
+    },
+    {
+      "scope": "meta.definition.variable, meta.parameters punctuation, meta.parameters punctuation.definition, variable.parameter, markup.heading punctuation",
+      "settings": {
+        "foreground": "#73ec99"
+      }
+    },
+    {
+      "scope": "entity.name.tag, markup.inline punctuation, markup.fenced_code punctuation",
+      "settings": {
+        "foreground": "#ffa2ff"
+      }
+    },
+    {
+      "scope": "meta.definition entity.name.function, entity.name.function, support.function",
+      "settings": {
+        "foreground": "#62ddc6"
+      }
+    },
+    {
+      "scope": "entity.other.attribute-name, meta.tag punctuation.section, meta.tag punctuation.definition, meta.tag keyword.operator.assignment, markup.inline, markup.fenced_code",
+      "settings": {
+        "foreground": "#ffb0ff"
+      }
+    },
+    {
+      "scope": "meta.embedded string, punctuation.definition.string, string",
+      "settings": {
+        "foreground": "#00e1fd"
+      }
+    },
+    {
+      "scope": "meta.link.inline.markdown, meta.link.inline.markdown punctuation.definition.string, meta.image.inline, meta.image.inline punctuation.definition.string",
+      "settings": {
+        "foreground": "#33f0ff"
+      }
+    },
+    {
+      "scope": "string punctuation.definition.template-expression",
+      "settings": {
+        "foreground": "#00d3ee"
+      }
+    },
+    {
+      "scope": "constant, variable.language",
+      "settings": {
+        "foreground": "#69daff"
+      }
+    },
+    {
+      "scope": "comment, punctuation.definition.comment, string.quoted.docstring, string.quoted.docstring punctuation.definition.string",
+      "settings": {
+        "foreground": "#526861",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "keyword, storage.modifier, storage.type",
+      "settings": {
+        "foreground": "#00e2c5"
+      }
+    },
+    {
+      "scope": "string variable, string punctuation.accessor, string keyword",
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "scope": "meta.objectliteral punctuation.definition, meta.objectliteral meta.object-literal.key, meta.class variable.object.property",
+      "settings": {
+        "foreground": "#48ffe1"
+      }
+    },
+    {
+      "scope": "markup.bold",
+      "settings": {
+        "foreground": "#48ffe1",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "markup.italic",
+      "settings": {
+        "foreground": "#48ffe1",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "meta.type.annotation, entity.name.type, meta.return.type, meta.type.parameters, entity.other.inherited-class, support.type, storage.type.postgres, markup.list beginning.punctuation",
+      "settings": {
+        "foreground": "#dacb66"
+      }
+    },
+    {
+      "scope": "meta.indexer.declaration variable.parameter, meta.object.type punctuation.definition, meta.type.annotation variable.object.property, punctuation.definition.typeparameters, meta.type.annotation keyword, meta.type.annotation meta.brace, meta.type.annotation punctuation, meta.type.parameters punctuation, meta.type.parameters meta.brace, markup.quote",
+      "settings": {
+        "foreground": "#f8e780"
+      }
+    },
+    {
+      "scope": "source.ts source.pgsql keyword, source.ts keyword.other.DML.sql, source.ts keyword.other.create.sql, source.ts keyword.other.order.sql",
+      "settings": {
+        "foreground": "#ffa1b5"
+      }
+    },
+    {
+      "scope": "source.ts keyword.other.DDL.create.II.sql, source.ts keyword.other.sql, source.ts keyword.other.alias.sql, source.ts support.function.expression.sql, source.ts constant.other.database-name.sql",
+      "settings": {
+        "foreground": "#cbb7bb"
+      }
+    },
+    {
+      "scope": "source.ts constant.other.table-name.sql",
+      "settings": {
+        "foreground": "#ffcbdf"
+      }
+    },
+    {
+      "scope": "entity.name.type.class",
+      "settings": {
+        "foreground": "#ccbd59"
+      }
+    },
+    {
+      "scope": "support.function, markup.heading",
+      "settings": {
+        "foreground": "#00e2c5"
+      }
+    },
+    {
+      "scope": "meta.definition.variable, meta.parameters punctuation, meta.parameters punctuation.definition, variable.parameter, markup.heading punctuation",
+      "settings": {
+        "foreground": "#30f1d2"
+      }
+    },
+    {
+      "scope": "entity.name.tag, markup.inline punctuation, markup.fenced_code punctuation",
+      "settings": {
+        "foreground": "#ffa1ce"
+      }
+    },
+    {
+      "scope": "meta.definition entity.name.function, entity.name.function, support.function",
+      "settings": {
+        "foreground": "#42e0f2"
+      }
+    },
+    {
+      "scope": "entity.other.attribute-name, meta.tag punctuation.section, meta.tag punctuation.definition, meta.tag keyword.operator.assignment, markup.inline, markup.fenced_code",
+      "settings": {
+        "foreground": "#ffafdc"
+      }
+    },
+    {
+      "scope": "meta.embedded string, punctuation.definition.string, string",
+      "settings": {
+        "foreground": "#00dcff"
+      }
+    },
+    {
+      "scope": "meta.link.inline.markdown, meta.link.inline.markdown punctuation.definition.string, meta.image.inline, meta.image.inline punctuation.definition.string",
+      "settings": {
+        "foreground": "#33eaff"
+      }
+    },
+    {
+      "scope": "string punctuation.definition.template-expression",
+      "settings": {
+        "foreground": "#00cdf1"
+      }
+    },
+    {
+      "scope": "constant, variable.language",
+      "settings": {
+        "foreground": "#d7cbff"
+      }
+    },
+    {
+      "scope": "comment, punctuation.definition.comment, string.quoted.docstring, string.quoted.docstring punctuation.definition.string",
+      "settings": {
+        "foreground": "#526972",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "keyword, storage.modifier, storage.type",
+      "settings": {
+        "foreground": "#00e1fd"
+      }
+    },
+    {
+      "scope": "string variable, string punctuation.accessor, string keyword",
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "scope": "meta.objectliteral punctuation.definition, meta.objectliteral meta.object-literal.key, meta.class variable.object.property",
+      "settings": {
+        "foreground": "#4dfeff"
+      }
+    },
+    {
+      "scope": "markup.bold",
+      "settings": {
+        "foreground": "#4dfeff",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "markup.italic",
+      "settings": {
+        "foreground": "#4dfeff",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "meta.type.annotation, entity.name.type, meta.return.type, meta.type.parameters, entity.other.inherited-class, support.type, storage.type.postgres, markup.list beginning.punctuation",
+      "settings": {
+        "foreground": "#a3dc93"
+      }
+    },
+    {
+      "scope": "meta.indexer.declaration variable.parameter, meta.object.type punctuation.definition, meta.type.annotation variable.object.property, punctuation.definition.typeparameters, meta.type.annotation keyword, meta.type.annotation meta.brace, meta.type.annotation punctuation, meta.type.parameters punctuation, meta.type.parameters meta.brace, markup.quote",
+      "settings": {
+        "foreground": "#bff9ad"
+      }
+    },
+    {
+      "scope": "source.ts source.pgsql keyword, source.ts keyword.other.DML.sql, source.ts keyword.other.create.sql, source.ts keyword.other.order.sql",
+      "settings": {
+        "foreground": "#ffb88e"
+      }
+    },
+    {
+      "scope": "source.ts keyword.other.DDL.create.II.sql, source.ts keyword.other.sql, source.ts keyword.other.alias.sql, source.ts support.function.expression.sql, source.ts constant.other.database-name.sql",
+      "settings": {
+        "foreground": "#d5c5bc"
+      }
+    },
+    {
+      "scope": "source.ts constant.other.table-name.sql",
+      "settings": {
+        "foreground": "#ffe2b7"
+      }
+    },
+    {
+      "scope": "entity.name.type.class",
+      "settings": {
+        "foreground": "#96ce85"
+      }
+    },
+    {
+      "scope": "support.function, markup.heading",
+      "settings": {
+        "foreground": "#00e1fd"
+      }
+    },
+    {
+      "scope": "meta.definition.variable, meta.parameters punctuation, meta.parameters punctuation.definition, variable.parameter, markup.heading punctuation",
+      "settings": {
+        "foreground": "#33f0ff"
+      }
+    },
+    {
+      "scope": "entity.name.tag, markup.inline punctuation, markup.fenced_code punctuation",
+      "settings": {
+        "foreground": "#ffb29e"
+      }
+    },
+    {
+      "scope": "meta.definition entity.name.function, entity.name.function, support.function",
+      "settings": {
+        "foreground": "#48dbff"
+      }
+    },
+    {
+      "scope": "entity.other.attribute-name, meta.tag punctuation.section, meta.tag punctuation.definition, meta.tag keyword.operator.assignment, markup.inline, markup.fenced_code",
+      "settings": {
+        "foreground": "#ffc0ac"
+      }
+    },
+    {
+      "scope": "meta.embedded string, punctuation.definition.string, string",
+      "settings": {
+        "foreground": "#9fceff"
+      }
+    },
+    {
+      "scope": "meta.link.inline.markdown, meta.link.inline.markdown punctuation.definition.string, meta.image.inline, meta.image.inline punctuation.definition.string",
+      "settings": {
+        "foreground": "#addcff"
+      }
+    },
+    {
+      "scope": "string punctuation.definition.template-expression",
+      "settings": {
+        "foreground": "#91c1f1"
+      }
+    },
+    {
+      "scope": "constant, variable.language",
+      "settings": {
+        "foreground": "#ffc0fe"
+      }
+    },
+    {
+      "scope": "comment, punctuation.definition.comment, string.quoted.docstring, string.quoted.docstring punctuation.definition.string",
+      "settings": {
+        "foreground": "#546873",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "keyword, storage.modifier, storage.type",
+      "settings": {
+        "foreground": "#00dbff"
+      }
+    },
+    {
+      "scope": "string variable, string punctuation.accessor, string keyword",
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "scope": "meta.objectliteral punctuation.definition, meta.objectliteral meta.object-literal.key, meta.class variable.object.property",
+      "settings": {
+        "foreground": "#4df7ff"
+      }
+    },
+    {
+      "scope": "markup.bold",
+      "settings": {
+        "foreground": "#4df7ff",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "markup.italic",
+      "settings": {
+        "foreground": "#4df7ff",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "meta.type.annotation, entity.name.type, meta.return.type, meta.type.parameters, entity.other.inherited-class, support.type, storage.type.postgres, markup.list beginning.punctuation",
+      "settings": {
+        "foreground": "#92d896"
+      }
+    },
+    {
+      "scope": "meta.indexer.declaration variable.parameter, meta.object.type punctuation.definition, meta.type.annotation variable.object.property, punctuation.definition.typeparameters, meta.type.annotation keyword, meta.type.annotation meta.brace, meta.type.annotation punctuation, meta.type.parameters punctuation, meta.type.parameters meta.brace, markup.quote",
+      "settings": {
+        "foreground": "#adf5b1"
+      }
+    },
+    {
+      "scope": "source.ts source.pgsql keyword, source.ts keyword.other.DML.sql, source.ts keyword.other.create.sql, source.ts keyword.other.order.sql",
+      "settings": {
+        "foreground": "#ffb783"
+      }
+    },
+    {
+      "scope": "source.ts keyword.other.DDL.create.II.sql, source.ts keyword.other.sql, source.ts keyword.other.alias.sql, source.ts support.function.expression.sql, source.ts constant.other.database-name.sql",
+      "settings": {
+        "foreground": "#d9c2b3"
+      }
+    },
+    {
+      "scope": "source.ts constant.other.table-name.sql",
+      "settings": {
+        "foreground": "#ffe0ab"
+      }
+    },
+    {
+      "scope": "entity.name.type.class",
+      "settings": {
+        "foreground": "#84ca89"
+      }
+    },
+    {
+      "scope": "support.function, markup.heading",
+      "settings": {
+        "foreground": "#00dbff"
+      }
+    },
+    {
+      "scope": "meta.definition.variable, meta.parameters punctuation, meta.parameters punctuation.definition, variable.parameter, markup.heading punctuation",
+      "settings": {
+        "foreground": "#33e9ff"
+      }
+    },
+    {
+      "scope": "entity.name.tag, markup.inline punctuation, markup.fenced_code punctuation",
+      "settings": {
+        "foreground": "#ffb091"
+      }
+    },
+    {
+      "scope": "meta.definition entity.name.function, entity.name.function, support.function",
+      "settings": {
+        "foreground": "#51d3ff"
+      }
+    },
+    {
+      "scope": "entity.other.attribute-name, meta.tag punctuation.section, meta.tag punctuation.definition, meta.tag keyword.operator.assignment, markup.inline, markup.fenced_code",
+      "settings": {
+        "foreground": "#ffbe9f"
+      }
+    },
+    {
+      "scope": "meta.embedded string, punctuation.definition.string, string",
+      "settings": {
+        "foreground": "#abc5ff"
+      }
+    },
+    {
+      "scope": "meta.link.inline.markdown, meta.link.inline.markdown punctuation.definition.string, meta.image.inline, meta.image.inline punctuation.definition.string",
+      "settings": {
+        "foreground": "#b9d3ff"
+      }
+    },
+    {
+      "scope": "string punctuation.definition.template-expression",
+      "settings": {
+        "foreground": "#9db8f1"
+      }
+    },
+    {
+      "scope": "constant, variable.language",
+      "settings": {
+        "foreground": "#ffb8ee"
+      }
+    },
+    {
+      "scope": "comment, punctuation.definition.comment, string.quoted.docstring, string.quoted.docstring punctuation.definition.string",
+      "settings": {
+        "foreground": "#556472",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "keyword, storage.modifier, storage.type",
+      "settings": {
+        "foreground": "#57ccff"
+      }
+    },
+    {
+      "scope": "string variable, string punctuation.accessor, string keyword",
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "scope": "meta.objectliteral punctuation.definition, meta.objectliteral meta.object-literal.key, meta.class variable.object.property",
+      "settings": {
+        "foreground": "#79e9ff"
+      }
+    },
+    {
+      "scope": "markup.bold",
+      "settings": {
+        "foreground": "#79e9ff",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "markup.italic",
+      "settings": {
+        "foreground": "#79e9ff",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "meta.type.annotation, entity.name.type, meta.return.type, meta.type.parameters, entity.other.inherited-class, support.type, storage.type.postgres, markup.list beginning.punctuation",
+      "settings": {
+        "foreground": "#74d2a9"
+      }
+    },
+    {
+      "scope": "meta.indexer.declaration variable.parameter, meta.object.type punctuation.definition, meta.type.annotation variable.object.property, punctuation.definition.typeparameters, meta.type.annotation keyword, meta.type.annotation meta.brace, meta.type.annotation punctuation, meta.type.parameters punctuation, meta.type.parameters meta.brace, markup.quote",
+      "settings": {
+        "foreground": "#90eec5"
+      }
+    },
+    {
+      "scope": "source.ts source.pgsql keyword, source.ts keyword.other.DML.sql, source.ts keyword.other.create.sql, source.ts keyword.other.order.sql",
+      "settings": {
+        "foreground": "#e5b97a"
+      }
+    },
+    {
+      "scope": "source.ts keyword.other.DDL.create.II.sql, source.ts keyword.other.sql, source.ts keyword.other.alias.sql, source.ts support.function.expression.sql, source.ts constant.other.database-name.sql",
+      "settings": {
+        "foreground": "#cabeb0"
+      }
+    },
+    {
+      "scope": "source.ts constant.other.table-name.sql",
+      "settings": {
+        "foreground": "#ffe2a1"
+      }
+    },
+    {
+      "scope": "entity.name.type.class",
+      "settings": {
+        "foreground": "#67c49c"
+      }
+    },
+    {
+      "scope": "support.function, markup.heading",
+      "settings": {
+        "foreground": "#57ccff"
+      }
+    },
+    {
+      "scope": "meta.definition.variable, meta.parameters punctuation, meta.parameters punctuation.definition, variable.parameter, markup.heading punctuation",
+      "settings": {
+        "foreground": "#69daff"
+      }
+    },
+    {
+      "scope": "entity.name.tag, markup.inline punctuation, markup.fenced_code punctuation",
+      "settings": {
+        "foreground": "#f3b281"
+      }
+    },
+    {
+      "scope": "meta.definition entity.name.function, entity.name.function, support.function",
+      "settings": {
+        "foreground": "#88c3ff"
+      }
+    },
+    {
+      "scope": "entity.other.attribute-name, meta.tag punctuation.section, meta.tag punctuation.definition, meta.tag keyword.operator.assignment, markup.inline, markup.fenced_code",
+      "settings": {
+        "foreground": "#ffc08e"
+      }
+    },
+    {
+      "scope": "meta.embedded string, punctuation.definition.string, string",
+      "settings": {
+        "foreground": "#c9b5fc"
+      }
+    },
+    {
+      "scope": "meta.link.inline.markdown, meta.link.inline.markdown punctuation.definition.string, meta.image.inline, meta.image.inline punctuation.definition.string",
+      "settings": {
+        "foreground": "#d7c3ff"
+      }
+    },
+    {
+      "scope": "string punctuation.definition.template-expression",
+      "settings": {
+        "foreground": "#bba8ee"
+      }
+    },
+    {
+      "scope": "constant, variable.language",
+      "settings": {
+        "foreground": "#ffb2cc"
+      }
+    },
+    {
+      "scope": "comment, punctuation.definition.comment, string.quoted.docstring, string.quoted.docstring punctuation.definition.string",
+      "settings": {
+        "foreground": "#605c6c",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "keyword, storage.modifier, storage.type",
+      "settings": {
+        "foreground": "#c9b8ff"
+      }
+    },
+    {
+      "scope": "string variable, string punctuation.accessor, string keyword",
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "scope": "meta.objectliteral punctuation.definition, meta.objectliteral meta.object-literal.key, meta.class variable.object.property",
+      "settings": {
+        "foreground": "#e6d3ff"
+      }
+    },
+    {
+      "scope": "markup.bold",
+      "settings": {
+        "foreground": "#e6d3ff",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "markup.italic",
+      "settings": {
+        "foreground": "#e6d3ff",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "meta.type.annotation, entity.name.type, meta.return.type, meta.type.parameters, entity.other.inherited-class, support.type, storage.type.postgres, markup.list beginning.punctuation",
+      "settings": {
+        "foreground": "#3dd3f1"
+      }
+    },
+    {
+      "scope": "meta.indexer.declaration variable.parameter, meta.object.type punctuation.definition, meta.type.annotation variable.object.property, punctuation.definition.typeparameters, meta.type.annotation keyword, meta.type.annotation meta.brace, meta.type.annotation punctuation, meta.type.parameters punctuation, meta.type.parameters meta.brace, markup.quote",
+      "settings": {
+        "foreground": "#64efff"
+      }
+    },
+    {
+      "scope": "source.ts source.pgsql keyword, source.ts keyword.other.DML.sql, source.ts keyword.other.create.sql, source.ts keyword.other.order.sql",
+      "settings": {
+        "foreground": "#9dcf8f"
+      }
+    },
+    {
+      "scope": "source.ts keyword.other.DDL.create.II.sql, source.ts keyword.other.sql, source.ts keyword.other.alias.sql, source.ts support.function.expression.sql, source.ts constant.other.database-name.sql",
+      "settings": {
+        "foreground": "#bac5b6"
+      }
+    },
+    {
+      "scope": "source.ts constant.other.table-name.sql",
+      "settings": {
+        "foreground": "#c6fab8"
+      }
+    },
+    {
+      "scope": "entity.name.type.class",
+      "settings": {
+        "foreground": "#22c5e2"
+      }
+    },
+    {
+      "scope": "support.function, markup.heading",
+      "settings": {
+        "foreground": "#c9b8ff"
+      }
+    },
+    {
+      "scope": "meta.definition.variable, meta.parameters punctuation, meta.parameters punctuation.definition, variable.parameter, markup.heading punctuation",
+      "settings": {
+        "foreground": "#d7c5ff"
+      }
+    },
+    {
+      "scope": "entity.name.tag, markup.inline punctuation, markup.fenced_code punctuation",
+      "settings": {
+        "foreground": "#b2cb83"
+      }
+    },
+    {
+      "scope": "meta.definition entity.name.function, entity.name.function, support.function",
+      "settings": {
+        "foreground": "#f3abe6"
+      }
+    },
+    {
+      "scope": "entity.other.attribute-name, meta.tag punctuation.section, meta.tag punctuation.definition, meta.tag keyword.operator.assignment, markup.inline, markup.fenced_code",
+      "settings": {
+        "foreground": "#c0d991"
+      }
+    },
+    {
+      "scope": "meta.embedded string, punctuation.definition.string, string",
+      "settings": {
+        "foreground": "#ffa6c1"
+      }
+    },
+    {
+      "scope": "meta.link.inline.markdown, meta.link.inline.markdown punctuation.definition.string, meta.image.inline, meta.image.inline punctuation.definition.string",
+      "settings": {
+        "foreground": "#ffb4cf"
+      }
+    },
+    {
+      "scope": "string punctuation.definition.template-expression",
+      "settings": {
+        "foreground": "#f098b3"
+      }
+    },
+    {
+      "scope": "constant, variable.language",
+      "settings": {
+        "foreground": "#ffc290"
+      }
+    }
+  ]
+}
