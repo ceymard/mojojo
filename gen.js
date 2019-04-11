@@ -156,9 +156,9 @@ var BASE = new C(c(270, 80, 80, 'hcl')).rotate(parseInt(process.argv[2] || 0))
 // var FN = c('#80cbc4')
 
 var OPPOSITE = BASE.rotate(-180)
-var TYPES = BASE.rotate(-60)
-var STRING = BASE.rotate(60)
-var CONSTANT = BASE.rotate(120)
+var TYPES = BASE.rotate(-90).addchr(30)
+var STRING = BASE.rotate(90)
+var CONSTANT = BASE.rotate(135)
 
 var COMMENT = BASE.lum(40).desaturate(2)
 var BG = BASE.lum(5).desaturate(3)
@@ -245,7 +245,7 @@ S.from(FG).add(
 )
 
 
-S.from(BASE.addlum(10)).add(
+S.from(BASE.addlum(-5).addchr(-5)).add(
   'meta.objectliteral punctuation.definition',
   'meta.objectliteral meta.object-literal.key',
   'meta.class variable.object.property'
@@ -274,7 +274,7 @@ S.from(TYPES).add(
   'markup.list beginning.punctuation'
 )
 
-S.from(TYPES.addlum(10)).add(
+S.from(TYPES.addlum(-5).addchr(-5)).add(
   'meta.indexer.declaration variable.parameter',
   'meta.object.type punctuation.definition',
   'meta.type.annotation variable.object.property',
@@ -289,17 +289,17 @@ S.from(TYPES.addlum(10)).add(
   'markup.quote'
 )
 
-S.from(TYPES.addlum(-5)).add(
+S.from(TYPES).add(
   'entity.name.type.class'
 )
 
 S.from(BASE).add(
-  'support.function',
+  // 'support.function',
   // markdown
   'markup.heading'
 )
 
-S.from(BASE.addlum(5)).add(
+S.from(BASE.addlum(-5).addchr(-5)).add(
   'meta.definition.variable',
   'meta.parameters punctuation',
   'meta.parameters punctuation.definition',
@@ -314,14 +314,15 @@ S.from(OPPOSITE).add(
   'markup.fenced_code punctuation'
 )
 
-S.from(BASE.rotate(30)).add(
+S.from(BASE.rotate(-45).addchr(20)).add(
   'meta.definition entity.name.function',
   'entity.name.function',
+  'support.function',
   'meta.function-call.tsx support.function.dom.tsx'
 )
 
 
-S.from(OPPOSITE.addlum(5)).add(
+S.from(OPPOSITE.addlum(-5).addchr(-5)).add(
   'entity.other.attribute-name',
   'meta.tag punctuation.section',
   'meta.tag punctuation.definition',
@@ -344,11 +345,11 @@ S.from(STRING.addlum(5)).add(
   'meta.image.inline punctuation.definition.string'
 )
 
-S.from(STRING.addlum(-5)).add(
+S.from(STRING.addlum(-5).addchr(-5)).add(
   'string punctuation.definition.template-expression'
 )
 
-S.from(CONSTANT.addlum(5)).add(
+S.from(CONSTANT).add(
   'constant',
   'variable.language'
 )

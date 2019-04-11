@@ -52,7 +52,7 @@
     {
       "scope": "meta.objectliteral punctuation.definition, meta.objectliteral meta.object-literal.key, meta.class variable.object.property",
       "settings": {
-        "foreground": "#4cebff"
+        "foreground": "#43c0e9"
       }
     },
     {
@@ -72,23 +72,23 @@
     {
       "scope": "meta.type.annotation, entity.name.type, meta.return.type, meta.type.parameters, entity.other.inherited-class, support.type, storage.type.postgres, markup.list beginning.punctuation",
       "settings": {
-        "foreground": "#4fd4b4"
+        "foreground": "#51d869"
       }
     },
     {
       "scope": "meta.indexer.declaration variable.parameter, meta.object.type punctuation.definition, meta.type.annotation variable.object.property, punctuation.definition.typeparameters, meta.type.annotation keyword, meta.type.annotation meta.brace, meta.type.annotation punctuation, meta.type.parameters punctuation, meta.type.parameters meta.brace, markup.quote",
       "settings": {
-        "foreground": "#6ff0d0"
+        "foreground": "#4dc863"
       }
     },
     {
       "scope": "entity.name.type.class",
       "settings": {
-        "foreground": "#3ec6a7"
+        "foreground": "#51d869"
       }
     },
     {
-      "scope": "support.function, markup.heading",
+      "scope": "markup.heading",
       "settings": {
         "foreground": "#00cfff"
       }
@@ -96,7 +96,7 @@
     {
       "scope": "meta.definition.variable, meta.parameters punctuation, meta.parameters punctuation.definition, variable.parameter, markup.heading punctuation",
       "settings": {
-        "foreground": "#32ddff"
+        "foreground": "#43c0e9"
       }
     },
     {
@@ -106,39 +106,39 @@
       }
     },
     {
-      "scope": "meta.definition entity.name.function, entity.name.function, meta.function-call.tsx support.function.dom.tsx",
+      "scope": "meta.definition entity.name.function, entity.name.function, support.function, meta.function-call.tsx support.function.dom.tsx",
       "settings": {
-        "foreground": "#71c5ff"
+        "foreground": "#00dccf"
       }
     },
     {
       "scope": "entity.other.attribute-name, meta.tag punctuation.section, meta.tag punctuation.definition, meta.tag keyword.operator.assignment, markup.inline, markup.fenced_code",
       "settings": {
-        "foreground": "#ffb98c"
+        "foreground": "#eaa079"
       }
     },
     {
       "scope": "meta.embedded string, punctuation.definition.string, string",
       "settings": {
-        "foreground": "#b6b7ff"
+        "foreground": "#e9a9ef"
       }
     },
     {
       "scope": "meta.link.inline.markdown, meta.link.inline.markdown punctuation.definition.string, meta.image.inline, meta.image.inline punctuation.definition.string",
       "settings": {
-        "foreground": "#c5c5ff"
+        "foreground": "#f8b6fe"
       }
     },
     {
       "scope": "string punctuation.definition.template-expression",
       "settings": {
-        "foreground": "#a9aaf1"
+        "foreground": "#d79edb"
       }
     },
     {
       "scope": "constant, variable.language",
       "settings": {
-        "foreground": "#ffadd7"
+        "foreground": "#ff9fb4"
       }
     }
   ]
