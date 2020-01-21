@@ -45,7 +45,7 @@
       }
     },
     {
-      "scope": "string variable, string punctuation.accessor, string keyword",
+      "scope": "variable, string variable, string punctuation.accessor, string keyword",
       "settings": {
         "foreground": "#ffffff"
       }
@@ -127,7 +127,7 @@
     {
       "scope": "meta.definition entity.name.function, entity.name.function, support.function",
       "settings": {
-        "foreground": "#fb989f"
+        "foreground": "#ebaa67"
       }
     },
     {
@@ -139,19 +139,19 @@
     {
       "scope": "meta.embedded string, punctuation.definition.string, string",
       "settings": {
-        "foreground": "#fda078"
+        "foreground": "#fb989f"
       }
     },
     {
       "scope": "meta.link.inline.markdown, meta.link.inline.markdown punctuation.definition.string, meta.image.inline, meta.image.inline punctuation.definition.string",
       "settings": {
-        "foreground": "#ffad85"
+        "foreground": "#ffa5ac"
       }
     },
     {
       "scope": "string punctuation.definition.template-expression",
       "settings": {
-        "foreground": "#ee926b"
+        "foreground": "#ec8a92"
       }
     },
     {
@@ -174,7 +174,7 @@
       }
     },
     {
-      "scope": "string variable, string punctuation.accessor, string keyword",
+      "scope": "variable, string variable, string punctuation.accessor, string keyword",
       "settings": {
         "foreground": "#ffffff"
       }
@@ -256,7 +256,7 @@
     {
       "scope": "meta.definition entity.name.function, entity.name.function, support.function",
       "settings": {
-        "foreground": "#eca877"
+        "foreground": "#b5bd6e"
       }
     },
     {
@@ -268,19 +268,19 @@
     {
       "scope": "meta.embedded string, punctuation.definition.string, string",
       "settings": {
-        "foreground": "#ceb569"
+        "foreground": "#eca877"
       }
     },
     {
       "scope": "meta.link.inline.markdown, meta.link.inline.markdown punctuation.definition.string, meta.image.inline, meta.image.inline punctuation.definition.string",
       "settings": {
-        "foreground": "#ddc276"
+        "foreground": "#fbb584"
       }
     },
     {
       "scope": "string punctuation.definition.template-expression",
       "settings": {
-        "foreground": "#c0a75d"
+        "foreground": "#dd9b6b"
       }
     },
     {
@@ -303,7 +303,7 @@
       }
     },
     {
-      "scope": "string variable, string punctuation.accessor, string keyword",
+      "scope": "variable, string variable, string punctuation.accessor, string keyword",
       "settings": {
         "foreground": "#ffffff"
       }
@@ -385,7 +385,7 @@
     {
       "scope": "meta.definition entity.name.function, entity.name.function, support.function",
       "settings": {
-        "foreground": "#d2c076"
+        "foreground": "#77d486"
       }
     },
     {
@@ -397,19 +397,19 @@
     {
       "scope": "meta.embedded string, punctuation.definition.string, string",
       "settings": {
-        "foreground": "#a1ce6c"
+        "foreground": "#d2c076"
       }
     },
     {
       "scope": "meta.link.inline.markdown, meta.link.inline.markdown punctuation.definition.string, meta.image.inline, meta.image.inline punctuation.definition.string",
       "settings": {
-        "foreground": "#afdc79"
+        "foreground": "#e1ce83"
       }
     },
     {
       "scope": "string punctuation.definition.template-expression",
       "settings": {
-        "foreground": "#93c05f"
+        "foreground": "#c4b369"
       }
     },
     {

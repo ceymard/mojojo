@@ -45,7 +45,7 @@
       }
     },
     {
-      "scope": "string variable, string punctuation.accessor, string keyword",
+      "scope": "variable, string variable, string punctuation.accessor, string keyword",
       "settings": {
         "foreground": "#ffffff"
       }
@@ -127,7 +127,7 @@
     {
       "scope": "meta.definition entity.name.function, entity.name.function, support.function",
       "settings": {
-        "foreground": "#fb989f"
+        "foreground": "#ebaa67"
       }
     },
     {
@@ -139,19 +139,19 @@
     {
       "scope": "meta.embedded string, punctuation.definition.string, string",
       "settings": {
-        "foreground": "#fda078"
+        "foreground": "#fb989f"
       }
     },
     {
       "scope": "meta.link.inline.markdown, meta.link.inline.markdown punctuation.definition.string, meta.image.inline, meta.image.inline punctuation.definition.string",
       "settings": {
-        "foreground": "#ffad85"
+        "foreground": "#ffa5ac"
       }
     },
     {
       "scope": "string punctuation.definition.template-expression",
       "settings": {
-        "foreground": "#ee926b"
+        "foreground": "#ec8a92"
       }
     },
     {

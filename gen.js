@@ -189,8 +189,8 @@ function make_theme(color) {
 
   var OPPOSITE = BASE.rotate(-180)
   var TYPES = BASE.rotate(-80).lum(60).chr(40)
-  var FUNCTIONS = BASE.rotate(30).chr(40)
-  var STRING = BASE.rotate(60)
+  var FUNCTIONS = BASE.rotate(80)
+  var STRING = BASE.rotate(30).chr(40)
   var CONSTANT = BASE.rotate(120)
 
   var COMMENT = BASE.lum(40).chr(10)
@@ -269,6 +269,7 @@ function make_theme(color) {
   )
 
   S.from(FG).add(
+    'variable',
     'string variable',
     'string punctuation.accessor',
     'string keyword'
