@@ -341,7 +341,10 @@ function make_theme(color) {
   )
 
   S.from(TYPES.addlum(-5)).add(
-    'entity.name.type.class'
+    'entity.name.type.class',
+    'meta.decorator',
+    'meta.decorator variable',
+    'meta.decorator meta.function-call entity.name.function'
   )
 
   S.from(BASE).add(

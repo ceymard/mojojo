@@ -101,7 +101,7 @@
       }
     },
     {
-      "scope": "entity.name.type.class",
+      "scope": "entity.name.type.class, meta.decorator, meta.decorator variable, meta.decorator meta.function-call entity.name.function",
       "settings": {
         "foreground": "#328ac8"
       }
