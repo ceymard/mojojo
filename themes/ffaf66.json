@@ -73,37 +73,37 @@
     {
       "scope": "meta.type.annotation, entity.name.type, meta.return.type, meta.type.parameters, entity.other.inherited-class, support.type, storage.type.postgres, markup.list beginning.punctuation",
       "settings": {
-        "foreground": "#4597d6"
+        "foreground": "#00d4ff"
       }
     },
     {
       "scope": "meta.indexer.declaration variable.parameter, meta.object.type punctuation.definition, meta.type.annotation variable.object.property, punctuation.definition.typeparameters, meta.type.annotation keyword, meta.type.annotation meta.brace, meta.type.annotation punctuation, meta.type.parameters punctuation, meta.type.parameters meta.brace, markup.quote",
       "settings": {
-        "foreground": "#65b1f3"
+        "foreground": "#4cf0ff"
       }
     },
     {
       "scope": "source.ts source.pgsql keyword, source.ts keyword.other.DML.sql, source.ts keyword.other.create.sql, source.ts keyword.other.order.sql",
       "settings": {
-        "foreground": "#11a38d"
+        "foreground": "#8bd392"
       }
     },
     {
       "scope": "source.ts keyword.other.DDL.create.II.sql, source.ts keyword.other.sql, source.ts keyword.other.alias.sql, source.ts support.function.expression.sql, source.ts constant.other.database-name.sql",
       "settings": {
-        "foreground": "#7d9690"
+        "foreground": "#b3c8b3"
       }
     },
     {
       "scope": "source.ts constant.other.table-name.sql",
       "settings": {
-        "foreground": "#50ccb5"
+        "foreground": "#b4febb"
       }
     },
     {
       "scope": "entity.name.type.class, meta.decorator, meta.decorator variable, meta.decorator meta.function-call entity.name.function",
       "settings": {
-        "foreground": "#328ac8"
+        "foreground": "#00c6f1"
       }
     },
     {
@@ -202,37 +202,37 @@
     {
       "scope": "meta.type.annotation, entity.name.type, meta.return.type, meta.type.parameters, entity.other.inherited-class, support.type, storage.type.postgres, markup.list beginning.punctuation",
       "settings": {
-        "foreground": "#a483c6"
+        "foreground": "#e6afff"
       }
     },
     {
       "scope": "meta.indexer.declaration variable.parameter, meta.object.type punctuation.definition, meta.type.annotation variable.object.property, punctuation.definition.typeparameters, meta.type.annotation keyword, meta.type.annotation meta.brace, meta.type.annotation punctuation, meta.type.parameters punctuation, meta.type.parameters meta.brace, markup.quote",
       "settings": {
-        "foreground": "#c09de2"
+        "foreground": "#ffcbff"
       }
     },
     {
       "scope": "source.ts source.pgsql keyword, source.ts keyword.other.DML.sql, source.ts keyword.other.create.sql, source.ts keyword.other.order.sql",
       "settings": {
-        "foreground": "#00a0c2"
+        "foreground": "#00d5ff"
       }
     },
     {
       "scope": "source.ts keyword.other.DDL.create.II.sql, source.ts keyword.other.sql, source.ts keyword.other.alias.sql, source.ts support.function.expression.sql, source.ts constant.other.database-name.sql",
       "settings": {
-        "foreground": "#88959a"
+        "foreground": "#a6c9d6"
       }
     },
     {
       "scope": "source.ts constant.other.table-name.sql",
       "settings": {
-        "foreground": "#52c9ec"
+        "foreground": "#61ffff"
       }
     },
     {
       "scope": "entity.name.type.class, meta.decorator, meta.decorator variable, meta.decorator meta.function-call entity.name.function",
       "settings": {
-        "foreground": "#9776b8"
+        "foreground": "#d7a1f1"
       }
     },
     {
@@ -331,37 +331,37 @@
     {
       "scope": "meta.type.annotation, entity.name.type, meta.return.type, meta.type.parameters, entity.other.inherited-class, support.type, storage.type.postgres, markup.list beginning.punctuation",
       "settings": {
-        "foreground": "#c677a9"
+        "foreground": "#ff9af1"
       }
     },
     {
       "scope": "meta.indexer.declaration variable.parameter, meta.object.type punctuation.definition, meta.type.annotation variable.object.property, punctuation.definition.typeparameters, meta.type.annotation keyword, meta.type.annotation meta.brace, meta.type.annotation punctuation, meta.type.parameters punctuation, meta.type.parameters meta.brace, markup.quote",
       "settings": {
-        "foreground": "#e292c5"
+        "foreground": "#ffb6ff"
       }
     },
     {
       "scope": "source.ts source.pgsql keyword, source.ts keyword.other.DML.sql, source.ts keyword.other.create.sql, source.ts keyword.other.order.sql",
       "settings": {
-        "foreground": "#2a99d4"
+        "foreground": "#00ceff"
       }
     },
     {
       "scope": "source.ts keyword.other.DDL.create.II.sql, source.ts keyword.other.sql, source.ts keyword.other.alias.sql, source.ts support.function.expression.sql, source.ts constant.other.database-name.sql",
       "settings": {
-        "foreground": "#8293a1"
+        "foreground": "#a1c3d2"
       }
     },
     {
       "scope": "source.ts constant.other.table-name.sql",
       "settings": {
-        "foreground": "#63c2ff"
+        "foreground": "#60f9ff"
       }
     },
     {
       "scope": "entity.name.type.class, meta.decorator, meta.decorator variable, meta.decorator meta.function-call entity.name.function",
       "settings": {
-        "foreground": "#b86a9c"
+        "foreground": "#f08de3"
       }
     },
     {
