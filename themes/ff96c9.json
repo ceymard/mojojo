@@ -155,7 +155,13 @@
       }
     },
     {
-      "scope": "constant, variable.language",
+      "scope": "variable.language",
+      "settings": {
+        "foreground": "#8bd392"
+      }
+    },
+    {
+      "scope": "constant",
       "settings": {
         "foreground": "#c5cb71"
       }

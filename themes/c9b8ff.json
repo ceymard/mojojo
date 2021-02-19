@@ -155,7 +155,13 @@
       }
     },
     {
-      "scope": "constant, variable.language",
+      "scope": "variable.language",
+      "settings": {
+        "foreground": "#8bd392"
+      }
+    },
+    {
+      "scope": "constant",
       "settings": {
         "foreground": "#c5cb71"
       }
@@ -284,7 +290,13 @@
       }
     },
     {
-      "scope": "constant, variable.language",
+      "scope": "variable.language",
+      "settings": {
+        "foreground": "#00d5ff"
+      }
+    },
+    {
+      "scope": "constant",
       "settings": {
         "foreground": "#86d69d"
       }
@@ -413,7 +425,13 @@
       }
     },
     {
-      "scope": "constant, variable.language",
+      "scope": "variable.language",
+      "settings": {
+        "foreground": "#00ceff"
+      }
+    },
+    {
+      "scope": "constant",
       "settings": {
         "foreground": "#2fe8d6"
       }
@@ -542,7 +560,13 @@
       }
     },
     {
-      "scope": "constant, variable.language",
+      "scope": "variable.language",
+      "settings": {
+        "foreground": "#43bdff"
+      }
+    },
+    {
+      "scope": "constant",
       "settings": {
         "foreground": "#33f0ff"
       }
@@ -671,7 +695,13 @@
       }
     },
     {
-      "scope": "constant, variable.language",
+      "scope": "variable.language",
+      "settings": {
+        "foreground": "#ef9de9"
+      }
+    },
+    {
+      "scope": "constant",
       "settings": {
         "foreground": "#33e9ff"
       }
@@ -800,7 +830,13 @@
       }
     },
     {
-      "scope": "constant, variable.language",
+      "scope": "variable.language",
+      "settings": {
+        "foreground": "#ff98dd"
+      }
+    },
+    {
+      "scope": "constant",
       "settings": {
         "foreground": "#69daff"
       }
@@ -929,7 +965,13 @@
       }
     },
     {
-      "scope": "constant, variable.language",
+      "scope": "variable.language",
+      "settings": {
+        "foreground": "#ff96b0"
+      }
+    },
+    {
+      "scope": "constant",
       "settings": {
         "foreground": "#d7cbff"
       }
@@ -1058,7 +1100,13 @@
       }
     },
     {
-      "scope": "constant, variable.language",
+      "scope": "variable.language",
+      "settings": {
+        "foreground": "#ffa971"
+      }
+    },
+    {
+      "scope": "constant",
       "settings": {
         "foreground": "#ffc0fe"
       }
@@ -1187,7 +1235,13 @@
       }
     },
     {
-      "scope": "constant, variable.language",
+      "scope": "variable.language",
+      "settings": {
+        "foreground": "#ffae67"
+      }
+    },
+    {
+      "scope": "constant",
       "settings": {
         "foreground": "#ffb8ee"
       }
@@ -1316,7 +1370,13 @@
       }
     },
     {
-      "scope": "constant, variable.language",
+      "scope": "variable.language",
+      "settings": {
+        "foreground": "#fabb56"
+      }
+    },
+    {
+      "scope": "constant",
       "settings": {
         "foreground": "#ffb2cc"
       }
@@ -1445,7 +1505,13 @@
       }
     },
     {
-      "scope": "constant, variable.language",
+      "scope": "variable.language",
+      "settings": {
+        "foreground": "#a5da90"
+      }
+    },
+    {
+      "scope": "constant",
       "settings": {
         "foreground": "#ffc290"
       }

@@ -155,7 +155,13 @@
       }
     },
     {
-      "scope": "constant, variable.language",
+      "scope": "variable.language",
+      "settings": {
+        "foreground": "#8bd392"
+      }
+    },
+    {
+      "scope": "constant",
       "settings": {
         "foreground": "#c5cb71"
       }
@@ -284,7 +290,13 @@
       }
     },
     {
-      "scope": "constant, variable.language",
+      "scope": "variable.language",
+      "settings": {
+        "foreground": "#00d5ff"
+      }
+    },
+    {
+      "scope": "constant",
       "settings": {
         "foreground": "#86d69d"
       }
@@ -413,7 +425,13 @@
       }
     },
     {
-      "scope": "constant, variable.language",
+      "scope": "variable.language",
+      "settings": {
+        "foreground": "#00ceff"
+      }
+    },
+    {
+      "scope": "constant",
       "settings": {
         "foreground": "#2fe8d6"
       }
@@ -542,7 +560,13 @@
       }
     },
     {
-      "scope": "constant, variable.language",
+      "scope": "variable.language",
+      "settings": {
+        "foreground": "#43bdff"
+      }
+    },
+    {
+      "scope": "constant",
       "settings": {
         "foreground": "#33f0ff"
       }

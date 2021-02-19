@@ -402,9 +402,12 @@ function make_theme(color) {
     'string punctuation.definition.template-expression'
   )
 
+  S.from(SQL).add(
+  	'variable.language',
+  )
+
   S.from(CONSTANT.addlum(5)).add(
     'constant',
-    'variable.language'
   )
 
 
