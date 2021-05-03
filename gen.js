@@ -305,6 +305,10 @@ function make_theme(color) {
     'markup.list beginning.punctuation'
   )
 
+  S.from(FUNCTIONS).add(
+  	'meta.parameters'
+  )
+
   S.from(TYPES.addlum(10)).add(
     'meta.indexer.declaration variable.parameter',
     'meta.object.type punctuation.definition',

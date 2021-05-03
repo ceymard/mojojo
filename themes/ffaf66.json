@@ -77,6 +77,12 @@
       }
     },
     {
+      "scope": "meta.parameters",
+      "settings": {
+        "foreground": "#ebaa67"
+      }
+    },
+    {
       "scope": "meta.indexer.declaration variable.parameter, meta.object.type punctuation.definition, meta.type.annotation variable.object.property, punctuation.definition.typeparameters, meta.type.annotation keyword, meta.type.annotation meta.brace, meta.type.annotation punctuation, meta.type.parameters punctuation, meta.type.parameters meta.brace, markup.quote",
       "settings": {
         "foreground": "#4cf0ff"
@@ -212,6 +218,12 @@
       }
     },
     {
+      "scope": "meta.parameters",
+      "settings": {
+        "foreground": "#b5bd6e"
+      }
+    },
+    {
       "scope": "meta.indexer.declaration variable.parameter, meta.object.type punctuation.definition, meta.type.annotation variable.object.property, punctuation.definition.typeparameters, meta.type.annotation keyword, meta.type.annotation meta.brace, meta.type.annotation punctuation, meta.type.parameters punctuation, meta.type.parameters meta.brace, markup.quote",
       "settings": {
         "foreground": "#ffcbff"
@@ -344,6 +356,12 @@
       "scope": "meta.type.annotation, entity.name.type, meta.return.type, meta.type.parameters, entity.other.inherited-class, support.type, storage.type.postgres, markup.list beginning.punctuation",
       "settings": {
         "foreground": "#ff9af1"
+      }
+    },
+    {
+      "scope": "meta.parameters",
+      "settings": {
+        "foreground": "#77d486"
       }
     },
     {

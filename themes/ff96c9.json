@@ -77,6 +77,12 @@
       }
     },
     {
+      "scope": "meta.parameters",
+      "settings": {
+        "foreground": "#ebaa67"
+      }
+    },
+    {
       "scope": "meta.indexer.declaration variable.parameter, meta.object.type punctuation.definition, meta.type.annotation variable.object.property, punctuation.definition.typeparameters, meta.type.annotation keyword, meta.type.annotation meta.brace, meta.type.annotation punctuation, meta.type.parameters punctuation, meta.type.parameters meta.brace, markup.quote",
       "settings": {
         "foreground": "#4cf0ff"
