@@ -131,6 +131,12 @@
       }
     },
     {
+      "scope": "support.class.component",
+      "settings": {
+        "foreground": "#00ffff"
+      }
+    },
+    {
       "scope": "meta.definition entity.name.function, entity.name.function, support.function",
       "settings": {
         "foreground": "#ebaa67"
@@ -269,6 +275,12 @@
       "scope": "entity.name.tag, markup.inline punctuation, markup.fenced_code punctuation",
       "settings": {
         "foreground": "#00cadd"
+      }
+    },
+    {
+      "scope": "support.class.component",
+      "settings": {
+        "foreground": "#00ffff"
       }
     },
     {
@@ -413,6 +425,12 @@
       }
     },
     {
+      "scope": "support.class.component",
+      "settings": {
+        "foreground": "#20ffff"
+      }
+    },
+    {
       "scope": "meta.definition entity.name.function, entity.name.function, support.function",
       "settings": {
         "foreground": "#77d486"
@@ -551,6 +569,12 @@
       "scope": "entity.name.tag, markup.inline punctuation, markup.fenced_code punctuation",
       "settings": {
         "foreground": "#57ccff"
+      }
+    },
+    {
+      "scope": "support.class.component",
+      "settings": {
+        "foreground": "#76ffff"
       }
     },
     {
@@ -695,6 +719,12 @@
       }
     },
     {
+      "scope": "support.class.component",
+      "settings": {
+        "foreground": "#ffeeff"
+      }
+    },
+    {
       "scope": "meta.definition entity.name.function, entity.name.function, support.function",
       "settings": {
         "foreground": "#00e2eb"
@@ -836,6 +866,12 @@
       }
     },
     {
+      "scope": "support.class.component",
+      "settings": {
+        "foreground": "#ffd5ff"
+      }
+    },
+    {
       "scope": "meta.definition entity.name.function, entity.name.function, support.function",
       "settings": {
         "foreground": "#00deff"
@@ -974,6 +1010,12 @@
       "scope": "entity.name.tag, markup.inline punctuation, markup.fenced_code punctuation",
       "settings": {
         "foreground": "#ffa1ce"
+      }
+    },
+    {
+      "scope": "support.class.component",
+      "settings": {
+        "foreground": "#ffdbff"
       }
     },
     {

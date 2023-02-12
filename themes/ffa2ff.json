@@ -131,6 +131,12 @@
       }
     },
     {
+      "scope": "support.class.component",
+      "settings": {
+        "foreground": "#00ffff"
+      }
+    },
+    {
       "scope": "meta.definition entity.name.function, entity.name.function, support.function",
       "settings": {
         "foreground": "#ebaa67"
@@ -269,6 +275,12 @@
       "scope": "entity.name.tag, markup.inline punctuation, markup.fenced_code punctuation",
       "settings": {
         "foreground": "#00cadd"
+      }
+    },
+    {
+      "scope": "support.class.component",
+      "settings": {
+        "foreground": "#00ffff"
       }
     },
     {
@@ -413,6 +425,12 @@
       }
     },
     {
+      "scope": "support.class.component",
+      "settings": {
+        "foreground": "#20ffff"
+      }
+    },
+    {
       "scope": "meta.definition entity.name.function, entity.name.function, support.function",
       "settings": {
         "foreground": "#77d486"
@@ -551,6 +569,12 @@
       "scope": "entity.name.tag, markup.inline punctuation, markup.fenced_code punctuation",
       "settings": {
         "foreground": "#57ccff"
+      }
+    },
+    {
+      "scope": "support.class.component",
+      "settings": {
+        "foreground": "#76ffff"
       }
     },
     {
@@ -695,6 +719,12 @@
       }
     },
     {
+      "scope": "support.class.component",
+      "settings": {
+        "foreground": "#ffeeff"
+      }
+    },
+    {
       "scope": "meta.definition entity.name.function, entity.name.function, support.function",
       "settings": {
         "foreground": "#00e2eb"
@@ -833,6 +863,12 @@
       "scope": "entity.name.tag, markup.inline punctuation, markup.fenced_code punctuation",
       "settings": {
         "foreground": "#ffa2ff"
+      }
+    },
+    {
+      "scope": "support.class.component",
+      "settings": {
+        "foreground": "#ffd5ff"
       }
     },
     {
@@ -977,6 +1013,12 @@
       }
     },
     {
+      "scope": "support.class.component",
+      "settings": {
+        "foreground": "#ffdbff"
+      }
+    },
+    {
       "scope": "meta.definition entity.name.function, entity.name.function, support.function",
       "settings": {
         "foreground": "#46d4ff"
@@ -1115,6 +1157,12 @@
       "scope": "entity.name.tag, markup.inline punctuation, markup.fenced_code punctuation",
       "settings": {
         "foreground": "#ffb29e"
+      }
+    },
+    {
+      "scope": "support.class.component",
+      "settings": {
+        "foreground": "#ffffb1"
       }
     },
     {
@@ -1259,6 +1307,12 @@
       }
     },
     {
+      "scope": "support.class.component",
+      "settings": {
+        "foreground": "#fffea3"
+      }
+    },
+    {
       "scope": "meta.definition entity.name.function, entity.name.function, support.function",
       "settings": {
         "foreground": "#d3bbff"
@@ -1397,6 +1451,12 @@
       "scope": "entity.name.tag, markup.inline punctuation, markup.fenced_code punctuation",
       "settings": {
         "foreground": "#f3b281"
+      }
+    },
+    {
+      "scope": "support.class.component",
+      "settings": {
+        "foreground": "#feff96"
       }
     },
     {
@@ -1541,6 +1601,12 @@
       }
     },
     {
+      "scope": "support.class.component",
+      "settings": {
+        "foreground": "#d0ffb6"
+      }
+    },
+    {
       "scope": "meta.definition entity.name.function, entity.name.function, support.function",
       "settings": {
         "foreground": "#ffa7a9"
@@ -1679,6 +1745,12 @@
       "scope": "entity.name.tag, markup.inline punctuation, markup.fenced_code punctuation",
       "settings": {
         "foreground": "#6fd885"
+      }
+    },
+    {
+      "scope": "support.class.component",
+      "settings": {
+        "foreground": "#2bffe0"
       }
     },
     {

@@ -372,6 +372,10 @@ function make_theme(color) {
     'markup.fenced_code punctuation'
   )
 
+  S.from(OPPOSITE.rotate(15).addlum(25).addchr(20)).add(
+    'support.class.component',
+  )
+
   S.from(FUNCTIONS).add(
     'meta.definition entity.name.function',
     'entity.name.function',

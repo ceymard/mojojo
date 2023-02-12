@@ -131,6 +131,12 @@
       }
     },
     {
+      "scope": "support.class.component",
+      "settings": {
+        "foreground": "#00ffff"
+      }
+    },
+    {
       "scope": "meta.definition entity.name.function, entity.name.function, support.function",
       "settings": {
         "foreground": "#ebaa67"
@@ -269,6 +275,12 @@
       "scope": "entity.name.tag, markup.inline punctuation, markup.fenced_code punctuation",
       "settings": {
         "foreground": "#00cadd"
+      }
+    },
+    {
+      "scope": "support.class.component",
+      "settings": {
+        "foreground": "#00ffff"
       }
     },
     {
