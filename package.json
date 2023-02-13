@@ -2,7 +2,7 @@
   "name": "mojojo",
   "displayName": "Mojojo",
   "description": "My custom theme, mainly targeted for a nice Typescript/TSX experience.",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "publisher": "ceymard",
   "engines": {
     "vscode": "^1.0.0"
