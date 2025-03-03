@@ -84,7 +84,7 @@
     "js-yaml": "^3.8.2"
   },
   "dependencies": {
-    "flat": "^2.0.1"
+    "flat": "^5.0.1"
   },
   "__metadata": {
     "id": "8eae2676-0ac1-4eba-a153-472ea484e1cd",
