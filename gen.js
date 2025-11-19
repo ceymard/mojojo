@@ -319,9 +319,15 @@ function make_theme(color) {
     'meta.type.annotation punctuation',
     'meta.type.parameters punctuation',
     'meta.type.parameters meta.brace',
-
+    
+    
     // markdown
     'markup.quote'
+  )
+  
+  S.from(TYPES.addlum(15).addchr(-10)).add(
+    'meta.type.parameters entity.name.type',
+    'keyword.operator.at'
   )
 
   const SQL = TYPES.rotate(-85)
@@ -369,11 +375,14 @@ function make_theme(color) {
   S.from(OPPOSITE).add(
     'entity.name.tag',
     'markup.inline punctuation',
-    'markup.fenced_code punctuation'
+    'markup.fenced_code punctuation',
+    'entity.name.type.trait'
+
   )
 
-  S.from(OPPOSITE.rotate(15).addlum(25).addchr(20)).add(
+  S.from(OPPOSITE.rotate(15).addlum(15).addchr(5)).add(
     'support.class.component',
+    'keyword.operator.trait'
   )
 
   S.from(FUNCTIONS).add(

@@ -89,6 +89,12 @@
       }
     },
     {
+      "scope": "meta.type.parameters entity.name.type, keyword.operator.at",
+      "settings": {
+        "foreground": "#8ffafa"
+      }
+    },
+    {
       "scope": "source.ts source.pgsql keyword, source.ts keyword.other.DML.sql, source.ts keyword.other.create.sql, source.ts keyword.other.order.sql",
       "settings": {
         "foreground": "#8bd392"
@@ -125,15 +131,15 @@
       }
     },
     {
-      "scope": "entity.name.tag, markup.inline punctuation, markup.fenced_code punctuation",
+      "scope": "entity.name.tag, markup.inline punctuation, markup.fenced_code punctuation, entity.name.type.trait",
       "settings": {
         "foreground": "#46cca5"
       }
     },
     {
-      "scope": "support.class.component",
+      "scope": "support.class.component, keyword.operator.trait",
       "settings": {
-        "foreground": "#00ffff"
+        "foreground": "#33fbe6"
       }
     },
     {
@@ -236,6 +242,12 @@
       }
     },
     {
+      "scope": "meta.type.parameters entity.name.type, keyword.operator.at",
+      "settings": {
+        "foreground": "#f4def4"
+      }
+    },
+    {
       "scope": "source.ts source.pgsql keyword, source.ts keyword.other.DML.sql, source.ts keyword.other.create.sql, source.ts keyword.other.order.sql",
       "settings": {
         "foreground": "#00d5ff"
@@ -272,15 +284,15 @@
       }
     },
     {
-      "scope": "entity.name.tag, markup.inline punctuation, markup.fenced_code punctuation",
+      "scope": "entity.name.tag, markup.inline punctuation, markup.fenced_code punctuation, entity.name.type.trait",
       "settings": {
         "foreground": "#00cadd"
       }
     },
     {
-      "scope": "support.class.component",
+      "scope": "support.class.component, keyword.operator.trait",
       "settings": {
-        "foreground": "#00ffff"
+        "foreground": "#3cf4ff"
       }
     },
     {
@@ -383,6 +395,12 @@
       }
     },
     {
+      "scope": "meta.type.parameters entity.name.type, keyword.operator.at",
+      "settings": {
+        "foreground": "#f5caf4"
+      }
+    },
+    {
       "scope": "source.ts source.pgsql keyword, source.ts keyword.other.DML.sql, source.ts keyword.other.create.sql, source.ts keyword.other.order.sql",
       "settings": {
         "foreground": "#00ceff"
@@ -419,15 +437,15 @@
       }
     },
     {
-      "scope": "entity.name.tag, markup.inline punctuation, markup.fenced_code punctuation",
+      "scope": "entity.name.tag, markup.inline punctuation, markup.fenced_code punctuation, entity.name.type.trait",
       "settings": {
         "foreground": "#00d0ff"
       }
     },
     {
-      "scope": "support.class.component",
+      "scope": "support.class.component, keyword.operator.trait",
       "settings": {
-        "foreground": "#20ffff"
+        "foreground": "#62f9ff"
       }
     },
     {
@@ -530,6 +548,12 @@
       }
     },
     {
+      "scope": "meta.type.parameters entity.name.type, keyword.operator.at",
+      "settings": {
+        "foreground": "#f4c1ec"
+      }
+    },
+    {
       "scope": "source.ts source.pgsql keyword, source.ts keyword.other.DML.sql, source.ts keyword.other.create.sql, source.ts keyword.other.order.sql",
       "settings": {
         "foreground": "#43bdff"
@@ -566,15 +590,15 @@
       }
     },
     {
-      "scope": "entity.name.tag, markup.inline punctuation, markup.fenced_code punctuation",
+      "scope": "entity.name.tag, markup.inline punctuation, markup.fenced_code punctuation, entity.name.type.trait",
       "settings": {
         "foreground": "#57ccff"
       }
     },
     {
-      "scope": "support.class.component",
+      "scope": "support.class.component, keyword.operator.trait",
       "settings": {
-        "foreground": "#76ffff"
+        "foreground": "#90f4ff"
       }
     },
     {
@@ -677,6 +701,12 @@
       }
     },
     {
+      "scope": "meta.type.parameters entity.name.type, keyword.operator.at",
+      "settings": {
+        "foreground": "#f5cea9"
+      }
+    },
+    {
       "scope": "source.ts source.pgsql keyword, source.ts keyword.other.DML.sql, source.ts keyword.other.create.sql, source.ts keyword.other.order.sql",
       "settings": {
         "foreground": "#ef9de9"
@@ -713,15 +743,15 @@
       }
     },
     {
-      "scope": "entity.name.tag, markup.inline punctuation, markup.fenced_code punctuation",
+      "scope": "entity.name.tag, markup.inline punctuation, markup.fenced_code punctuation, entity.name.type.trait",
       "settings": {
         "foreground": "#c9b8ff"
       }
     },
     {
-      "scope": "support.class.component",
+      "scope": "support.class.component, keyword.operator.trait",
       "settings": {
-        "foreground": "#ffeeff"
+        "foreground": "#ffd8ff"
       }
     },
     {
